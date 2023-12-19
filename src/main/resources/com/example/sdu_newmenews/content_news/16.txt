@@ -1,0 +1,16 @@
+Title: Clearview AI used nearly 1m times by US police, it tells the BBC
+Text: Facial recognition firm Clearview has run nearly a million searches for US police, its founder has told the BBC.
+
+CEO Hoan Ton-That also revealed Clearview now has 30bn images scraped from platforms such as Facebook, taken without users' permissions.
+
+The company has been repeatedly fined millions of dollars in Europe and Australia for breaches of privacy.
+
+Critics argue that the police's use of Clearview puts everyone into a "perpetual police line-up".
+
+"Whenever they have a photo of a suspect, they will compare it to your face," says Matthew Guariglia from the Electronic Frontier Foundation says. "It's far too invasive."
+
+The figure of a million searches comes from Clearview and has not been confirmed by police. But in a rare admission, Miami Police has confirmed to the BBC it uses this software for every type of crime.
+
+Clearview's system allows a law enforcement customer to upload a photo of a face and find matches in a database of billions of images it has collected.
+
+It then provides links to where matching images appear online. It is considered one of the most powerful and accurate facial recognition companies in the world.

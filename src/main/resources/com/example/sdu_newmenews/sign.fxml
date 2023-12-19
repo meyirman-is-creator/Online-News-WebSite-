@@ -1,0 +1,984 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sdu_newmenews.sign_page_controller">
+   <children>
+      <BorderPane fx:id="id_si_page" focusTraversable="true" prefHeight="800.0" prefWidth="800.0" styleClass="border_pane_background" stylesheets="@style/style.css">
+         <center>
+            <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="680.0" prefWidth="650.0" styleClass="vBox_pane" stylesheets="@style/style.css" BorderPane.alignment="CENTER">
+               <children>
+                  <Label styleClass="main_title" stylesheets="@style/style.css" text="LOGIN PAGE">
+                     <VBox.margin>
+                        <Insets bottom="51.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@style/style.css">
+                     <children>
+                        <ComboBox fx:id="id_si_combobox" layoutX="510.0" onAction="#action_si_select" prefHeight="80.0" prefWidth="50.0" stylesheets="@style/style.css">
+                           <effect>
+                              <InnerShadow height="10.0" offsetX="-1.0" offsetY="-1.0" radius="4.5" width="10.0">
+                                 <color>
+                                    <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                 </color>
+                                 <input>
+                                    <InnerShadow height="10.0" offsetX="1.0" offsetY="1.0" radius="4.5" width="10.0">
+                                       <color>
+                                          <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                       </color>
+                                    </InnerShadow>
+                                 </input>
+                              </InnerShadow>
+                           </effect>
+                        </ComboBox>
+                        <TextField fx:id="id_si_username_textfield" layoutX="90.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="420.0" promptText="USERNAME" styleClass="text-field" stylesheets="@style/style.css">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                           <effect>
+                              <InnerShadow height="25.0" offsetX="7.0" offsetY="7.0" radius="12.0" width="25.0">
+                                 <color>
+                                    <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                 </color>
+                                 <input>
+                                    <InnerShadow height="25.0" offsetX="-7.0" offsetY="-7.0" radius="12.0" width="25.0">
+                                       <color>
+                                          <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                       </color>
+                                    </InnerShadow>
+                                 </input>
+                              </InnerShadow>
+                           </effect>
+                        </TextField>
+                        <TextField fx:id="id_si_username_textfield_emptyON" layoutX="90.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="420.0" promptText="USERNAME" styleClass="text-field-adm" stylesheets="@style/style.css">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                           <effect>
+                              <InnerShadow height="25.0" offsetX="7.0" offsetY="7.0" radius="12.0" width="25.0">
+                                 <color>
+                                    <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                 </color>
+                                 <input>
+                                    <InnerShadow height="25.0" offsetX="-7.0" offsetY="-7.0" radius="12.0" width="25.0">
+                                       <color>
+                                          <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                       </color>
+                                    </InnerShadow>
+                                 </input>
+                              </InnerShadow>
+                           </effect>
+                        </TextField>
+                        <Label fx:id="id_si_emptyInUsername_discribeText" layoutX="90.0" layoutY="80.0" styleClass="discribe_text" stylesheets="@style/style.css" text="Label" />
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="25.0" />
+                     </VBox.margin>
+                     <styleClass>
+                        <String fx:value="pane" />
+                        <String fx:value="text-field" />
+                     </styleClass>
+                  </Pane>
+                  <Pane prefHeight="170.0" prefWidth="200.0" styleClass="pane" stylesheets="@style/style.css">
+                     <children>
+                        <PasswordField fx:id="id_si_hidePassword_passwordField" layoutX="90.0" onKeyReleased="#action_si_hidePassword_passwordField" prefHeight="80.0" prefWidth="420.0" promptText="PASSWORD" styleClass="text-field" stylesheets="@style/style.css">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                           <effect>
+                              <InnerShadow height="25.0" offsetX="7.0" offsetY="7.0" radius="12.0" width="25.0">
+                                 <color>
+                                    <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                 </color>
+                                 <input>
+                                    <InnerShadow height="25.0" offsetX="-7.0" offsetY="-7.0" radius="12.0" width="25.0">
+                                       <color>
+                                          <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                       </color>
+                                    </InnerShadow>
+                                 </input>
+                              </InnerShadow>
+                           </effect>
+                        </PasswordField>
+                        <Pane fx:id="id_si_openEye_btn" layoutX="510.0" maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#action_si_toShowEye_btn" prefHeight="80.0" prefWidth="50.0" styleClass="eyes_btn" stylesheets="@style/style.css">
+                           <children>
+                              <ImageView fitHeight="24.0" fitWidth="31.0" layoutX="13.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@image/open_eye.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                           <effect>
+                              <InnerShadow height="10.0" offsetX="1.0" offsetY="1.0" radius="4.5" width="10.0">
+                                 <color>
+                                    <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                 </color>
+                                 <input>
+                                    <InnerShadow height="10.0" offsetX="-1.0" offsetY="-1.0" radius="4.5" width="10.0">
+                                       <color>
+                                          <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                       </color>
+                                    </InnerShadow>
+                                 </input>
+                              </InnerShadow>
+                           </effect>
+                        </Pane>
+                        <TextField fx:id="id_si_showPassword_passwordField" layoutX="90.0" maxHeight="-Infinity" maxWidth="-Infinity" onKeyReleased="#action_si_showPassword_passwordField" prefHeight="80.0" prefWidth="420.0" promptText="PASSWORD" styleClass="text-field" stylesheets="@style/style.css">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                           <effect>
+                              <InnerShadow height="25.0" offsetX="7.0" offsetY="7.0" radius="12.0" width="25.0">
+                                 <color>
+                                    <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                 </color>
+                                 <input>
+                                    <InnerShadow height="25.0" offsetX="-7.0" offsetY="-7.0" radius="12.0" width="25.0">
+                                       <color>
+                                          <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                       </color>
+                                    </InnerShadow>
+                                 </input>
+                              </InnerShadow>
+                           </effect>
+                        </TextField>
+                        <Pane fx:id="id_si_closeEye_btn" layoutX="510.0" maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#action_si_toOpenEye_btn" prefHeight="80.0" prefWidth="50.0" styleClass="eyes_btn" stylesheets="@style/style.css">
+                           <children>
+                              <ImageView fitHeight="24.0" fitWidth="31.0" layoutX="13.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@image/close_eye.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                           <effect>
+                              <InnerShadow height="10.0" offsetX="-1.0" offsetY="-1.0" radius="4.5" width="10.0">
+                                 <color>
+                                    <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                 </color>
+                                 <input>
+                                    <InnerShadow height="10.0" offsetX="1.0" offsetY="1.0" radius="4.5" width="10.0">
+                                       <color>
+                                          <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                       </color>
+                                    </InnerShadow>
+                                 </input>
+                              </InnerShadow>
+                           </effect>
+                        </Pane>
+                        <Label fx:id="id_si_emptyInPassword_discribeText" layoutX="90.0" layoutY="80.0" styleClass="discribe_text" stylesheets="@style/style.css" text="Label" />
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="25.0" />
+                     </VBox.margin>
+                  </Pane>
+                  <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="470.0">
+                     <left>
+                        <Button fx:id="id_si_signin_btn" mnemonicParsing="false" onAction="#action_si_signINToNextPage_btn" styleClass="white_btn" stylesheets="@style/style.css" text="SIGN IN" BorderPane.alignment="CENTER">
+                           <BorderPane.margin>
+                              <Insets />
+                           </BorderPane.margin>
+                        </Button>
+                     </left>
+                     <right>
+                        <Button contentDisplay="CENTER" mnemonicParsing="false" onMouseClicked="#action_si_toSignUpPage_btn" styleClass="black_btn" stylesheets="@style/style.css" text="SIGN UP" BorderPane.alignment="CENTER" />
+                     </right>
+                     <VBox.margin>
+                        <Insets bottom="25.0" />
+                     </VBox.margin>
+                  </BorderPane>
+                  <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="190.0" prefWidth="200.0" styleClass="container" stylesheets="@style/style.css">
+                     <children>
+                        <Label layoutY="1.0" onMouseClicked="#action_si_rememberme_ONorOFF" styleClass="font_size_20px_bold" stylesheets="@style/style.css" text="Remember me!" />
+                        <Pane fx:id="id_si_remembermeOFF_btn" layoutX="175.0" onMouseClicked="#action_si_remembermeON" prefHeight="200.0" prefWidth="200.0" styleClass="remember_me_toggle_btn_white" stylesheets="@style/style.css">
+                           <children>
+                              <Pane layoutX="6.0" layoutY="5.0" prefHeight="200.0" prefWidth="200.0" styleClass="remember_me_toggle_btn_circle_white" />
+                           </children>
+                        </Pane>
+                        <Pane fx:id="id_si_remembermeON" layoutX="175.0" onMouseClicked="#action_si_remembermeOFF" prefHeight="200.0" prefWidth="200.0" styleClass="remember_me_toggle_btn_black" stylesheets="@style/style.css">
+                           <children>
+                              <Pane layoutX="34.0" layoutY="5.0" prefHeight="200.0" prefWidth="200.0" styleClass="remember_me_toggle_btn_circle_black" />
+                           </children>
+                        </Pane>
+                        <Label layoutX="291.0" layoutY="-1.0" onMouseClicked="#action_si_toFogotPage_btn" styleClass="font_size_20px_light" stylesheets="@style/style.css" text="Forgot password?" />
+                        <Label layoutX="363.0" layoutY="68.0" onMouseClicked="#action_si_toAdminLoginPage_btn" styleClass="font_size_20px_light" stylesheets="@style/style.css" text="I'm admin!" />
+                        <ImageView fx:id="id_si_progressBar" fitHeight="21.0" fitWidth="140.0" layoutX="165.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@image/66.gif" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </VBox>
+         </center>
+      </BorderPane>
+      <BorderPane fx:id="id_adm_page" focusTraversable="true" prefHeight="800.0" prefWidth="800.0" styleClass="border_pane_background" stylesheets="@style/style.css" visible="false">
+         <center>
+            <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="680.0" prefWidth="650.0" styleClass="vBox_pane" stylesheets="@style/style.css" BorderPane.alignment="CENTER">
+               <children>
+                  <Label styleClass="main_title" stylesheets="@style/style.css" text="ADMIN LOGIN PAGE">
+                     <VBox.margin>
+                        <Insets bottom="51.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Pane prefWidth="200.0" styleClass="pane" stylesheets="@style/style.css">
+                     <children>
+                        <TextField fx:id="id_adm_usernameORemail" layoutX="90.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="420.0" promptText="USERNAME / EMAIL" styleClass="text-field-adm" stylesheets="@style/style.css">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                           <effect>
+                              <InnerShadow height="25.0" offsetX="7.0" offsetY="7.0" radius="12.0" width="25.0">
+                                 <color>
+                                    <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                 </color>
+                                 <input>
+                                    <InnerShadow height="25.0" offsetX="-7.0" offsetY="-7.0" radius="12.0" width="25.0">
+                                       <color>
+                                          <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                       </color>
+                                    </InnerShadow>
+                                 </input>
+                              </InnerShadow>
+                           </effect>
+                        </TextField>
+                        <Label layoutX="90.0" layoutY="80.0" styleClass="discribe_text" stylesheets="@style/style.css" text="Label" />
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="25.0" />
+                     </VBox.margin>
+                  </Pane>
+                  <Pane prefHeight="169.0" prefWidth="200.0" styleClass="pane" stylesheets="@style/style.css">
+                     <children>
+                        <PasswordField fx:id="id_adm_passwordField_password" layoutX="90.0" onKeyReleased="#action_adm_hidePassword_passwordField" prefHeight="80.0" prefWidth="420.0" promptText="PASSWORD" styleClass="text-field" stylesheets="@style/style.css">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                           <effect>
+                              <InnerShadow height="25.0" offsetX="7.0" offsetY="7.0" radius="12.0" width="25.0">
+                                 <color>
+                                    <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                 </color>
+                                 <input>
+                                    <InnerShadow height="25.0" offsetX="-7.0" offsetY="-7.0" radius="12.0" width="25.0">
+                                       <color>
+                                          <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                       </color>
+                                    </InnerShadow>
+                                 </input>
+                              </InnerShadow>
+                           </effect>
+                        </PasswordField>
+                        <Pane fx:id="id_adm_openEye_btn" layoutX="510.0" maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#action_adm_hidePassword_btn" prefHeight="80.0" prefWidth="50.0" styleClass="eyes_btn" stylesheets="@style/style.css">
+                           <effect>
+                              <InnerShadow height="10.0" offsetX="1.0" offsetY="1.0" radius="4.5" width="10.0">
+                                 <color>
+                                    <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                 </color>
+                                 <input>
+                                    <InnerShadow height="10.0" offsetX="-1.0" offsetY="-1.0" radius="4.5" width="10.0">
+                                       <color>
+                                          <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                       </color>
+                                    </InnerShadow>
+                                 </input>
+                              </InnerShadow>
+                           </effect>
+                           <children>
+                              <ImageView fitHeight="24.0" fitWidth="31.0" layoutX="13.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@image/open_eye.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <TextField fx:id="id_adm_showPassword_textField" layoutX="90.0" maxHeight="-Infinity" maxWidth="-Infinity" onKeyReleased="#action_adm_showPassword_textField" prefHeight="80.0" prefWidth="420.0" promptText="PASSWORD" styleClass="text-field" stylesheets="@style/style.css">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                           <effect>
+                              <InnerShadow height="25.0" offsetX="7.0" offsetY="7.0" radius="12.0" width="25.0">
+                                 <color>
+                                    <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                 </color>
+                                 <input>
+                                    <InnerShadow height="25.0" offsetX="-7.0" offsetY="-7.0" radius="12.0" width="25.0">
+                                       <color>
+                                          <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                       </color>
+                                    </InnerShadow>
+                                 </input>
+                              </InnerShadow>
+                           </effect>
+                        </TextField>
+                        <Pane fx:id="id_adm_closeEye_btn" layoutX="510.0" maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#action_adm_showPassword_btn" prefHeight="80.0" prefWidth="50.0" styleClass="eyes_btn" stylesheets="@style/style.css">
+                           <effect>
+                              <InnerShadow height="10.0" offsetX="-1.0" offsetY="-1.0" radius="4.5" width="10.0">
+                                 <color>
+                                    <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                 </color>
+                                 <input>
+                                    <InnerShadow height="10.0" offsetX="1.0" offsetY="1.0" radius="4.5" width="10.0">
+                                       <color>
+                                          <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                       </color>
+                                    </InnerShadow>
+                                 </input>
+                              </InnerShadow>
+                           </effect>
+                           <children>
+                              <ImageView fitHeight="24.0" fitWidth="31.0" layoutX="13.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@image/close_eye.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Label layoutX="90.0" layoutY="80.0" styleClass="discribe_text" stylesheets="@style/style.css" text="Label" />
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="25.0" />
+                     </VBox.margin>
+                  </Pane>
+                  <Button mnemonicParsing="false" onAction="#action_adm_TOLoginPage_btn" styleClass="white_btn" stylesheets="@style/style.css" text="SIGN IN">
+                     <VBox.margin>
+                        <Insets bottom="25.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Label onMouseClicked="#action_adm_toLoginPage_btn" prefHeight="3.0" prefWidth="146.0" styleClass="font_size_20px_light" stylesheets="@style/style.css" text="I'm not admin!" />
+                  <AnchorPane prefHeight="166.0" prefWidth="650.0">
+                     <children>
+                        <ImageView fx:id="id_adm_progressBar" fitHeight="21.0" fitWidth="140.0" layoutX="255.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@image/66.gif" />
+                           </image></ImageView>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </VBox>
+         </center>
+      </BorderPane>
+      <BorderPane fx:id="id_fogot_page" focusTraversable="true" prefHeight="800.0" prefWidth="800.0" styleClass="border_pane_background" stylesheets="@style/style.css" visible="false">
+         <center>
+            <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="680.0" prefWidth="650.0" styleClass="vBox_pane" stylesheets="@style/style.css" BorderPane.alignment="CENTER">
+               <children>
+                  <Label styleClass="main_title" stylesheets="@style/style.css" text="FORGOT PASSWORD">
+                     <VBox.margin>
+                        <Insets bottom="51.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="pane" stylesheets="@style/style.css">
+                     <children>
+                        <TextField fx:id="id_fogot_email_textField" layoutX="90.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="420.0" promptText="EMAIL" styleClass="text-field-adm" stylesheets="@style/style.css">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                           <effect>
+                              <InnerShadow height="25.0" offsetX="7.0" offsetY="7.0" radius="12.0" width="25.0">
+                                 <color>
+                                    <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                 </color>
+                                 <input>
+                                    <InnerShadow height="25.0" offsetX="-7.0" offsetY="-7.0" radius="12.0" width="25.0">
+                                       <color>
+                                          <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                       </color>
+                                    </InnerShadow>
+                                 </input>
+                              </InnerShadow>
+                           </effect>
+                        </TextField>
+                        <Label fx:id="id_fogot_discribe_email" layoutX="90.0" layoutY="80.0" styleClass="discribe_text" stylesheets="@style/style.css" text="Label" />
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="25.0" />
+                     </VBox.margin>
+                  </Pane>
+                  <Pane fx:id="id_fogot_newPassword" prefHeight="170.0" prefWidth="200.0" styleClass="pane" stylesheets="@style/style.css">
+                     <children>
+                        <PasswordField fx:id="id_fogot_hide_new_password" layoutX="90.0" onKeyReleased="#action_fogot_hide_new_password" prefHeight="80.0" prefWidth="420.0" promptText="NEW PASSWORD" styleClass="text-field" stylesheets="@style/style.css">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                           <effect>
+                              <InnerShadow height="25.0" offsetX="7.0" offsetY="7.0" radius="12.0" width="25.0">
+                                 <color>
+                                    <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                 </color>
+                                 <input>
+                                    <InnerShadow height="25.0" offsetX="-7.0" offsetY="-7.0" radius="12.0" width="25.0">
+                                       <color>
+                                          <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                       </color>
+                                    </InnerShadow>
+                                 </input>
+                              </InnerShadow>
+                           </effect>
+                        </PasswordField>
+                        <Pane fx:id="id_fogot_openEye_new_btn" layoutX="510.0" maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#action_fogot_toCloseEyeNew_btn" prefHeight="80.0" prefWidth="50.0" styleClass="eyes_btn" stylesheets="@style/style.css">
+                           <children>
+                              <ImageView fitHeight="24.0" fitWidth="31.0" layoutX="13.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@image/open_eye.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                           <effect>
+                              <InnerShadow height="10.0" offsetX="1.0" offsetY="1.0" radius="4.5" width="10.0">
+                                 <color>
+                                    <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                 </color>
+                                 <input>
+                                    <InnerShadow height="10.0" offsetX="-1.0" offsetY="-1.0" radius="4.5" width="10.0">
+                                       <color>
+                                          <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                       </color>
+                                    </InnerShadow>
+                                 </input>
+                              </InnerShadow>
+                           </effect>
+                        </Pane>
+                        <TextField fx:id="id_fogot_show_new_password" layoutX="90.0" maxHeight="-Infinity" maxWidth="-Infinity" onKeyReleased="#action_fogot_show_new_password" prefHeight="80.0" prefWidth="420.0" promptText="NEW PASSWORD" styleClass="text-field" stylesheets="@style/style.css">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                           <effect>
+                              <InnerShadow height="25.0" offsetX="7.0" offsetY="7.0" radius="12.0" width="25.0">
+                                 <color>
+                                    <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                 </color>
+                                 <input>
+                                    <InnerShadow height="25.0" offsetX="-7.0" offsetY="-7.0" radius="12.0" width="25.0">
+                                       <color>
+                                          <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                       </color>
+                                    </InnerShadow>
+                                 </input>
+                              </InnerShadow>
+                           </effect>
+                        </TextField>
+                        <Label fx:id="id_fogot_discribe_new_password" layoutX="90.0" layoutY="80.0" styleClass="discribe_text" stylesheets="@style/style.css" text="Label" />
+                        <Pane fx:id="id_fogot_closeEye_new_btn" layoutX="509.0" maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#action_fogot_toOpenEyeNew_btn" prefHeight="80.0" prefWidth="50.0" styleClass="eyes_btn" stylesheets="@style/style.css">
+                           <children>
+                              <ImageView fitHeight="24.0" fitWidth="31.0" layoutX="13.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@image/close_eye.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                           <effect>
+                              <InnerShadow height="10.0" offsetX="-1.0" offsetY="-1.0" radius="4.5" width="10.0">
+                                 <color>
+                                    <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                 </color>
+                                 <input>
+                                    <InnerShadow height="10.0" offsetX="1.0" offsetY="1.0" radius="4.5" width="10.0">
+                                       <color>
+                                          <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                       </color>
+                                    </InnerShadow>
+                                 </input>
+                              </InnerShadow>
+                           </effect>
+                        </Pane>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="25.0" />
+                     </VBox.margin>
+                  </Pane>
+                  <Pane fx:id="id_fogot_repeatPassword" prefHeight="170.0" prefWidth="200.0" styleClass="pane" stylesheets="@style/style.css">
+                     <children>
+                        <PasswordField fx:id="id_fogot_hide_repeat_password" layoutX="90.0" onKeyReleased="#action_fogot_hide_repeat_password" prefHeight="80.0" prefWidth="420.0" promptText="REPEAT PASSWORD" styleClass="text-field" stylesheets="@style/style.css">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                           <effect>
+                              <InnerShadow height="25.0" offsetX="7.0" offsetY="7.0" radius="12.0" width="25.0">
+                                 <color>
+                                    <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                 </color>
+                                 <input>
+                                    <InnerShadow height="25.0" offsetX="-7.0" offsetY="-7.0" radius="12.0" width="25.0">
+                                       <color>
+                                          <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                       </color>
+                                    </InnerShadow>
+                                 </input>
+                              </InnerShadow>
+                           </effect>
+                        </PasswordField>
+                        <Pane fx:id="id_fogot_openEye_repeat_btn" layoutX="510.0" maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#action_fogot_toCloseEyeRepeat_btn" prefHeight="80.0" prefWidth="50.0" styleClass="eyes_btn" stylesheets="@style/style.css">
+                           <children>
+                              <ImageView fitHeight="24.0" fitWidth="31.0" layoutX="13.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@image/open_eye.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                           <effect>
+                              <InnerShadow height="10.0" offsetX="1.0" offsetY="1.0" radius="4.5" width="10.0">
+                                 <color>
+                                    <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                 </color>
+                                 <input>
+                                    <InnerShadow height="10.0" offsetX="-1.0" offsetY="-1.0" radius="4.5" width="10.0">
+                                       <color>
+                                          <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                       </color>
+                                    </InnerShadow>
+                                 </input>
+                              </InnerShadow>
+                           </effect>
+                        </Pane>
+                        <TextField fx:id="id_fogot_show_repeat_password" layoutX="90.0" maxHeight="-Infinity" maxWidth="-Infinity" onKeyReleased="#action_fogot_show_repeat_password" prefHeight="80.0" prefWidth="420.0" promptText="REPEAT PASSWORD" styleClass="text-field" stylesheets="@style/style.css">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                           <effect>
+                              <InnerShadow height="25.0" offsetX="7.0" offsetY="7.0" radius="12.0" width="25.0">
+                                 <color>
+                                    <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                 </color>
+                                 <input>
+                                    <InnerShadow height="25.0" offsetX="-7.0" offsetY="-7.0" radius="12.0" width="25.0">
+                                       <color>
+                                          <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                       </color>
+                                    </InnerShadow>
+                                 </input>
+                              </InnerShadow>
+                           </effect>
+                        </TextField>
+                        <Label fx:id="id_fogot_discribe_repeat_password" layoutX="90.0" layoutY="80.0" styleClass="discribe_text" stylesheets="@style/style.css" text="Label" />
+                        <Pane fx:id="id_fogot_closeEye_repeat_btn" layoutX="510.0" maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#action_fogot_toOpenEyeRepeat_btn" prefHeight="80.0" prefWidth="50.0" styleClass="eyes_btn" stylesheets="@style/style.css">
+                           <children>
+                              <ImageView fitHeight="24.0" fitWidth="31.0" layoutX="13.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@image/close_eye.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                           <effect>
+                              <InnerShadow height="10.0" offsetX="-1.0" offsetY="-1.0" radius="4.5" width="10.0">
+                                 <color>
+                                    <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                 </color>
+                                 <input>
+                                    <InnerShadow height="10.0" offsetX="1.0" offsetY="1.0" radius="4.5" width="10.0">
+                                       <color>
+                                          <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                       </color>
+                                    </InnerShadow>
+                                 </input>
+                              </InnerShadow>
+                           </effect>
+                        </Pane>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="25.0" />
+                     </VBox.margin>
+                  </Pane>
+                  <Pane prefHeight="94.0" prefWidth="650.0">
+                     <children>
+                        <Button fx:id="id_fogot_createNewPassword" layoutX="205.0" mnemonicParsing="false" onAction="#action_fogot_toCreateNewPassword_btn" styleClass="white_btn" stylesheets="@style/style.css" text="CREATE" />
+                        <Button fx:id="id_fogot_find_btn" layoutX="205.0" mnemonicParsing="false" onAction="#action_fogot_toFindEmail_btn" styleClass="white_btn" stylesheets="@style/style.css" text="FIND" />
+                     </children>
+                  </Pane>
+                  <Label onMouseClicked="#action_fogot_toLoginPage_btn" styleClass="font_size_20px_light" stylesheets="@style/style.css" text="I remember!">
+                     <VBox.margin>
+                        <Insets bottom="25.0" top="25.0" />
+                     </VBox.margin></Label>
+               </children>
+            </VBox>
+         </center>
+         <bottom>
+            <AnchorPane prefHeight="50.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fx:id="id_fogot_progressBar_btn" fitHeight="21.0" fitWidth="140.0" layoutX="330.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/66.gif" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </bottom>
+      </BorderPane>
+      <BorderPane fx:id="id_su_page" focusTraversable="true" prefHeight="800.0" prefWidth="800.0" styleClass="border_pane_background" stylesheets="@style/style.css" visible="false">
+         <center>
+            <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="680.0" prefWidth="650.0" styleClass="vBox_pane" stylesheets="@style/style.css" BorderPane.alignment="CENTER">
+               <children>
+                  <Label styleClass="main_title" stylesheets="@style/style.css" text="REGISTRATION PAGE">
+                     <VBox.margin>
+                        <Insets bottom="51.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@style/style.css">
+                     <children>
+                        <TextField fx:id="id_su_username_textfield_emptyON" layoutX="90.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="420.0" promptText="USERNAME" styleClass="text-field-adm" stylesheets="@style/style.css">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                           <effect>
+                              <InnerShadow height="25.0" offsetX="7.0" offsetY="7.0" radius="12.0" width="25.0">
+                                 <color>
+                                    <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                 </color>
+                                 <input>
+                                    <InnerShadow height="25.0" offsetX="-7.0" offsetY="-7.0" radius="12.0" width="25.0">
+                                       <color>
+                                          <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                       </color>
+                                    </InnerShadow>
+                                 </input>
+                              </InnerShadow>
+                           </effect>
+                        </TextField>
+                        <TextField fx:id="id_su_username_textfield" layoutX="90.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="420.0" promptText="USERNAME" styleClass="text-field" stylesheets="@style/style.css" visible="false">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                           <effect>
+                              <InnerShadow height="25.0" offsetX="7.0" offsetY="7.0" radius="12.0" width="25.0">
+                                 <color>
+                                    <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                 </color>
+                                 <input>
+                                    <InnerShadow height="25.0" offsetX="-7.0" offsetY="-7.0" radius="12.0" width="25.0">
+                                       <color>
+                                          <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                       </color>
+                                    </InnerShadow>
+                                 </input>
+                              </InnerShadow>
+                           </effect>
+                        </TextField>
+                        <ComboBox fx:id="id_su_username_combobox" layoutX="510.0" onAction="#action_su_select_username" prefHeight="80.0" prefWidth="50.0" stylesheets="@style/style.css" visible="false">
+                           <effect>
+                              <InnerShadow height="10.0" offsetX="-1.0" offsetY="-1.0" radius="4.5" width="10.0">
+                                 <color>
+                                    <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                 </color>
+                                 <input>
+                                    <InnerShadow height="10.0" offsetX="1.0" offsetY="1.0" radius="4.5" width="10.0">
+                                       <color>
+                                          <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                       </color>
+                                    </InnerShadow>
+                                 </input>
+                              </InnerShadow>
+                           </effect>
+                        </ComboBox>
+                        <Label fx:id="id_su_discribeUsername" layoutX="90.0" layoutY="80.0" styleClass="discribe_text" stylesheets="@style/style.css" text="Label" />
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="25.0" />
+                     </VBox.margin>
+                     <styleClass>
+                        <String fx:value="text-field" />
+                        <String fx:value="pane" />
+                     </styleClass>
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0" stylesheets="@style/style.css">
+                     <children>
+                        <TextField fx:id="id_su_email_textfield_emptyON" layoutX="90.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="420.0" promptText="EMAIL" styleClass="text-field-adm" stylesheets="@style/style.css">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                           <effect>
+                              <InnerShadow height="25.0" offsetX="7.0" offsetY="7.0" radius="12.0" width="25.0">
+                                 <color>
+                                    <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                 </color>
+                                 <input>
+                                    <InnerShadow height="25.0" offsetX="-7.0" offsetY="-7.0" radius="12.0" width="25.0">
+                                       <color>
+                                          <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                       </color>
+                                    </InnerShadow>
+                                 </input>
+                              </InnerShadow>
+                           </effect>
+                        </TextField>
+                        <TextField fx:id="id_su_email_textfield" editable="false" layoutX="90.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="420.0" promptText="EMAIL" styleClass="text-field" stylesheets="@style/style.css" visible="false">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                           <effect>
+                              <InnerShadow height="25.0" offsetX="7.0" offsetY="7.0" radius="12.0" width="25.0">
+                                 <color>
+                                    <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                 </color>
+                                 <input>
+                                    <InnerShadow height="25.0" offsetX="-7.0" offsetY="-7.0" radius="12.0" width="25.0">
+                                       <color>
+                                          <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                       </color>
+                                    </InnerShadow>
+                                 </input>
+                              </InnerShadow>
+                           </effect>
+                        </TextField>
+                        <ComboBox fx:id="id_su_email_combobox" layoutX="510.0" onAction="#action_su_select_username" prefHeight="80.0" prefWidth="50.0" stylesheets="@style/style.css" visible="false">
+                           <effect>
+                              <InnerShadow height="10.0" offsetX="-1.0" offsetY="-1.0" radius="4.5" width="10.0">
+                                 <color>
+                                    <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                 </color>
+                                 <input>
+                                    <InnerShadow height="10.0" offsetX="1.0" offsetY="1.0" radius="4.5" width="10.0">
+                                       <color>
+                                          <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                       </color>
+                                    </InnerShadow>
+                                 </input>
+                              </InnerShadow>
+                           </effect>
+                        </ComboBox>
+                        <Label fx:id="id_su_discribeEmail" layoutX="90.0" layoutY="80.0" styleClass="discribe_text" stylesheets="@style/style.css" text="Label" />
+                     </children>
+                     <styleClass>
+                        <String fx:value="text-field" />
+                        <String fx:value="pane" />
+                     </styleClass>
+                     <VBox.margin>
+                        <Insets bottom="25.0" />
+                     </VBox.margin>
+                  </Pane>
+                  <Pane maxHeight="203.0" prefHeight="203.0" prefWidth="650.0" styleClass="pane" stylesheets="@style/style.css">
+                     <children>
+                        <PasswordField fx:id="id_su_hidePassword_passwordField" layoutX="90.0" onKeyReleased="#action_su_hidePassword_passwordField" prefHeight="80.0" prefWidth="420.0" promptText="PASSWORD" styleClass="text-field" stylesheets="@style/style.css">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                           <effect>
+                              <InnerShadow height="25.0" offsetX="7.0" offsetY="7.0" radius="12.0" width="25.0">
+                                 <color>
+                                    <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                 </color>
+                                 <input>
+                                    <InnerShadow height="25.0" offsetX="-7.0" offsetY="-7.0" radius="12.0" width="25.0">
+                                       <color>
+                                          <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                       </color>
+                                    </InnerShadow>
+                                 </input>
+                              </InnerShadow>
+                           </effect>
+                        </PasswordField>
+                        <Pane fx:id="id_su_openEye_btn" layoutX="510.0" maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#action_su_toCloseEye_btn" prefHeight="80.0" prefWidth="50.0" styleClass="eyes_btn" stylesheets="@style/style.css">
+                           <children>
+                              <ImageView fitHeight="24.0" fitWidth="31.0" layoutX="13.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@image/open_eye.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                           <effect>
+                              <InnerShadow height="10.0" offsetX="1.0" offsetY="1.0" radius="4.5" width="10.0">
+                                 <color>
+                                    <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                 </color>
+                                 <input>
+                                    <InnerShadow height="10.0" offsetX="-1.0" offsetY="-1.0" radius="4.5" width="10.0">
+                                       <color>
+                                          <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                       </color>
+                                    </InnerShadow>
+                                 </input>
+                              </InnerShadow>
+                           </effect>
+                        </Pane>
+                        <TextField fx:id="id_su_showPassword_passwordField" layoutX="90.0" maxHeight="-Infinity" maxWidth="-Infinity" onKeyReleased="#action_su_showPassword_passwordField" prefHeight="80.0" prefWidth="420.0" promptText="PASSWORD" styleClass="text-field" stylesheets="@style/style.css">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                           <effect>
+                              <InnerShadow height="25.0" offsetX="7.0" offsetY="7.0" radius="12.0" width="25.0">
+                                 <color>
+                                    <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                 </color>
+                                 <input>
+                                    <InnerShadow height="25.0" offsetX="-7.0" offsetY="-7.0" radius="12.0" width="25.0">
+                                       <color>
+                                          <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                       </color>
+                                    </InnerShadow>
+                                 </input>
+                              </InnerShadow>
+                           </effect>
+                        </TextField>
+                        <Pane fx:id="id_su_closeEye_btn" layoutX="510.0" maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#action_su_toOpenEye_btn" prefHeight="80.0" prefWidth="50.0" styleClass="eyes_btn" stylesheets="@style/style.css">
+                           <children>
+                              <ImageView fitHeight="24.0" fitWidth="31.0" layoutX="13.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@image/close_eye.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                           <effect>
+                              <InnerShadow height="10.0" offsetX="-1.0" offsetY="-1.0" radius="4.5" width="10.0">
+                                 <color>
+                                    <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                 </color>
+                                 <input>
+                                    <InnerShadow height="10.0" offsetX="1.0" offsetY="1.0" radius="4.5" width="10.0">
+                                       <color>
+                                          <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                       </color>
+                                    </InnerShadow>
+                                 </input>
+                              </InnerShadow>
+                           </effect>
+                        </Pane>
+                        <Label fx:id="id_su_discribePassword" layoutX="90.0" layoutY="80.0" styleClass="discribe_text" stylesheets="@style/style.css" text="Label" />
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="25.0" />
+                     </VBox.margin>
+                  </Pane>
+                  <BorderPane maxWidth="-Infinity" styleClass="container" stylesheets="@style/style.css">
+                     <VBox.margin>
+                        <Insets bottom="25.0" />
+                     </VBox.margin>
+                     <left>
+                        <RadioButton fx:id="id_su_male_radio" mnemonicParsing="false" stylesheets="@style/style.css" text="MALE" BorderPane.alignment="CENTER">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="id_su_gender_toggleGroup" />
+                           </toggleGroup>
+                        </RadioButton>
+                     </left>
+                     <right>
+                        <RadioButton fx:id="id_su_other_radio" mnemonicParsing="false" selected="true" stylesheets="@style/style.css" text="OTHER" toggleGroup="$id_su_gender_toggleGroup" BorderPane.alignment="CENTER" />
+                     </right>
+                     <center>
+                        <RadioButton fx:id="id_su_female_radio" mnemonicParsing="false" stylesheets="@style/style.css" text="FEMALE" toggleGroup="$id_su_gender_toggleGroup" BorderPane.alignment="CENTER" />
+                     </center>
+                  </BorderPane>
+                  <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="470.0">
+                     <left>
+                        <Button mnemonicParsing="false" onAction="#action_su_signUPToNextPage_btn" styleClass="white_btn" stylesheets="@style/style.css" text="SIGN UP" BorderPane.alignment="CENTER">
+                           <BorderPane.margin>
+                              <Insets />
+                           </BorderPane.margin>
+                        </Button>
+                     </left>
+                     <right>
+                        <Button contentDisplay="CENTER" mnemonicParsing="false" onMouseClicked="#action_su_toLogin_page_btn" styleClass="black_btn" stylesheets="@style/style.css" text="SIGN IN" BorderPane.alignment="CENTER" />
+                     </right>
+                     <VBox.margin>
+                        <Insets bottom="25.0" />
+                     </VBox.margin>
+                  </BorderPane>
+                  <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="21.0" styleClass="container" stylesheets="@style/style.css">
+                     <children>
+                        <ImageView fx:id="id_su_progress" fitHeight="21.0" fitWidth="140.0" layoutX="166.0" layoutY="-5.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@image/66.gif" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </VBox>
+         </center>
+      </BorderPane>
+      <BorderPane fx:id="id_start_page" focusTraversable="true" prefHeight="800.0" prefWidth="800.0" styleClass="border_pane_background" stylesheets="@style/style.css" visible="false">
+         <center>
+            <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="680.0" prefWidth="650.0" stylesheets="@style/style.css" BorderPane.alignment="CENTER">
+               <children>
+                  <Label styleClass="main_title" stylesheets="@style/style.css" text="START">
+                     <VBox.margin>
+                        <Insets bottom="51.0" />
+                     </VBox.margin>
+                  </Label>
+                  <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="470.0">
+                     <left>
+                        <Button fx:id="id_start_toAdmin_btn" mnemonicParsing="false" onAction="#action_start_adminLoginPage_btn" styleClass="white_btn" stylesheets="@style/style.css" text="ADMIN" BorderPane.alignment="CENTER">
+                           <BorderPane.margin>
+                              <Insets />
+                           </BorderPane.margin>
+                        </Button>
+                     </left>
+                     <right>
+                        <Button contentDisplay="CENTER" mnemonicParsing="false" onAction="#action_start_toUserPage_btn" styleClass="black_btn" stylesheets="@style/style.css" text="USER" BorderPane.alignment="CENTER" />
+                     </right>
+                     <VBox.margin>
+                        <Insets bottom="25.0" />
+                     </VBox.margin>
+                  </BorderPane>
+                  <AnchorPane layoutY="150.0" maxHeight="-Infinity" maxWidth="-Infinity" styleClass="container" stylesheets="@style/style.css">
+                     <children>
+                        <ImageView fx:id="id_start_progress" fitHeight="21.0" fitWidth="140.0" layoutX="165.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@image/66.gif" />
+                           </image></ImageView>
+                     </children>
+                  </AnchorPane>
+               </children>
+               <styleClass>
+                  <String fx:value="vBox_pane" />
+                  <String fx:value="vBox_pane_start" />
+               </styleClass>
+            </VBox>
+         </center>
+      </BorderPane>
+      <BorderPane fx:id="id_SIGNINorSIGNUP_page" focusTraversable="true" prefHeight="800.0" prefWidth="800.0" styleClass="border_pane_background" stylesheets="@style/style.css" visible="false">
+         <center>
+            <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="680.0" prefWidth="650.0" stylesheets="@style/style.css" BorderPane.alignment="CENTER">
+               <children>
+                  <Label styleClass="main_title" stylesheets="@style/style.css" text="IF THERE IS AN" />
+                  <Label styleClass="main_title" stylesheets="@style/style.css" text="ACCOUNT?">
+                     <VBox.margin>
+                        <Insets bottom="51.0" />
+                     </VBox.margin>
+                  </Label>
+                  <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="470.0">
+                     <left>
+                        <Button mnemonicParsing="false" onAction="#action_SIGNINorSIGNUP_toLoginPage_btn" styleClass="white_btn" stylesheets="@style/style.css" text="SIGN IN" BorderPane.alignment="CENTER">
+                           <BorderPane.margin>
+                              <Insets />
+                           </BorderPane.margin>
+                        </Button>
+                     </left>
+                     <right>
+                        <Button contentDisplay="CENTER" mnemonicParsing="false" onAction="#action_SIGNINorSIGNUP_toRegisterPage_btn" styleClass="black_btn" stylesheets="@style/style.css" text="SIGN UP" BorderPane.alignment="CENTER" />
+                     </right>
+                     <VBox.margin>
+                        <Insets bottom="25.0" />
+                     </VBox.margin>
+                  </BorderPane>
+                  <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" styleClass="container" stylesheets="@style/style.css">
+                     <children>
+                        <ImageView fx:id="id_SIGNINorSIGNUP_progress" fitHeight="21.0" fitWidth="140.0" layoutX="165.0" layoutY="147.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@image/66.gif" />
+                           </image>
+                        </ImageView>
+                     </children></AnchorPane>
+               </children>
+               <styleClass>
+                  <String fx:value="vBox_pane" />
+                  <String fx:value="vBox_pane_start" />
+               </styleClass>
+            </VBox>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

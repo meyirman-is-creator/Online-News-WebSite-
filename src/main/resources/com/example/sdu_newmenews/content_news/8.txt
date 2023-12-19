@@ -1,0 +1,16 @@
+Title: Elon Musk among experts urging a halt to AI training
+Text: Key figures in artificial intelligence want training of powerful AI systems to be suspended amid fears of a threat to humanity.
+
+They have signed an open letter warning of potential risks, and say the race to develop AI systems is out of control.
+
+Twitter chief Elon Musk is among those who want training of AIs above a certain capacity to be halted for at least six months.
+
+Apple co-founder Steve Wozniak and some researchers at DeepMind also signed.
+
+OpenAI, the company behind ChatGPT, recently released GPT-4 - a state-of-the-art technology, which has impressed observers with its ability to do tasks such as answering questions about objects in images.
+
+The letter, from Future of Life Institute and signed by the luminaries, wants development to be halted temporarily at that level, warning in their letter of the risks future, more advanced systems might pose.
+
+"AI systems with human-competitive intelligence can pose profound risks to society and humanity," it says.
+
+The Future of Life Institute is a not-for-profit organisation which says its mission is to "steer transformative technologies away from extreme, large-scale risks and towards benefiting life".

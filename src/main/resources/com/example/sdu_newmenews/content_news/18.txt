@@ -1,0 +1,30 @@
+Title: Why fun apps are banned on French officials' phones
+Text: Governments and institutions around the world have been banning TikTok from officials' phones and devices, over the past few months.
+
+The Netherlands and Norway have joined the list of countries banning the video-sharing app, owned by Chinese company ByteDance, from government-issued devices.
+
+And despite TikTok's insistence it is independently run and shares no users' data with the Chinese government, France has become the latest country to restrict officials' access to it.
+
+But at the same time, it has also become the first country to do the same for all "recreational" apps - including:
+
+Netflix
+Instagram
+Candy Crush
+Twitter
+The ban, monitored by France's cyber-security agency, will affect about 2.5 million civil servants.
+
+"Recreational applications do not deliver sufficient levels of cyber-security and data protection to be deployed on administration's digital tools," Civil Service Minister Stanislas Guerini said.
+
+"These applications may therefore constitute a risk to the data protection of these administrations and their public officials." Although, exceptions could be granted for "institutional communications" purposes.
+
+So it looks like France, unlike the rest of the West, is viewing Chinese and American technology companies in a similar way. Although, it is not the first instance of technology tension between the US and France.
+
+In 2019, France approved a digital-services tax despite threats of retaliation by the US, who argued it unfairly targeted American technology giants such as Google and Facebook.
+
+And since 2018, France has been vocally opposed to the US Cloud Act, which gives American law-enforcement authorities the power to request data stored by most major cloud providers, even if it is outside the US.
+
+France has had a prominent voice in the Gaia-X project - set up to:
+
+address the conflict between the US Cloud Act and the EU General Data Protection Regulation (GDPR)
+set European cloud standards
+ensure customers' data is stored and processed in Europe, "immune" from non-European laws

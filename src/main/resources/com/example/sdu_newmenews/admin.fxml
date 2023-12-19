@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sdu_newmenews.AdminController">
+   <children>
+      <BorderPane fx:id="id_adm_page" focusTraversable="true" layoutX="1.0" layoutY="1.0" prefHeight="800.0" prefWidth="800.0" styleClass="border_pane_background" stylesheets="@style/style.css">
+         <center>
+            <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="680.0" prefWidth="650.0" styleClass="vBox_pane" stylesheets="@style/style.css" BorderPane.alignment="CENTER">
+               <children>
+                  <Label styleClass="main_title" stylesheets="@style/style.css" text="ADMIN LOGIN PAGE">
+                     <VBox.margin>
+                        <Insets bottom="51.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Pane prefWidth="200.0" styleClass="pane" stylesheets="@style/style.css">
+                     <children>
+                        <TextField fx:id="id_adm_usernameORemail" layoutX="90.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="420.0" promptText="EMAIL" styleClass="text-field-adm" stylesheets="@style/style.css">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                           <effect>
+                              <InnerShadow height="25.0" offsetX="7.0" offsetY="7.0" radius="12.0" width="25.0">
+                                 <color>
+                                    <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                 </color>
+                                 <input>
+                                    <InnerShadow height="25.0" offsetX="-7.0" offsetY="-7.0" radius="12.0" width="25.0">
+                                       <color>
+                                          <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                       </color>
+                                    </InnerShadow>
+                                 </input>
+                              </InnerShadow>
+                           </effect>
+                        </TextField>
+                        <Label fx:id="id_adm_discribeEmail" layoutX="90.0" layoutY="80.0" styleClass="discribe_text" stylesheets="@style/style.css" text="Label" />
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="25.0" />
+                     </VBox.margin>
+                  </Pane>
+                  <Pane prefHeight="169.0" prefWidth="200.0" styleClass="pane" stylesheets="@style/style.css">
+                     <children>
+                        <PasswordField fx:id="id_adm_passwordField_password" layoutX="90.0" onKeyReleased="#action_adm_hidePassword_passwordField" prefHeight="80.0" prefWidth="420.0" promptText="PASSWORD" styleClass="text-field" stylesheets="@style/style.css">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                           <effect>
+                              <InnerShadow height="25.0" offsetX="7.0" offsetY="7.0" radius="12.0" width="25.0">
+                                 <color>
+                                    <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                 </color>
+                                 <input>
+                                    <InnerShadow height="25.0" offsetX="-7.0" offsetY="-7.0" radius="12.0" width="25.0">
+                                       <color>
+                                          <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                       </color>
+                                    </InnerShadow>
+                                 </input>
+                              </InnerShadow>
+                           </effect>
+                        </PasswordField>
+                        <Pane fx:id="id_adm_openEye_btn" layoutX="510.0" maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#action_adm_hidePassword_btn" prefHeight="80.0" prefWidth="50.0" styleClass="eyes_btn" stylesheets="@style/style.css">
+                           <effect>
+                              <InnerShadow height="10.0" offsetX="1.0" offsetY="1.0" radius="4.5" width="10.0">
+                                 <color>
+                                    <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                 </color>
+                                 <input>
+                                    <InnerShadow height="10.0" offsetX="-1.0" offsetY="-1.0" radius="4.5" width="10.0">
+                                       <color>
+                                          <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                       </color>
+                                    </InnerShadow>
+                                 </input>
+                              </InnerShadow>
+                           </effect>
+                           <children>
+                              <ImageView fitHeight="24.0" fitWidth="31.0" layoutX="13.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@image/open_eye.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <TextField fx:id="id_adm_showPassword_textField" layoutX="90.0" maxHeight="-Infinity" maxWidth="-Infinity" onKeyReleased="#action_adm_showPassword_textField" prefHeight="80.0" prefWidth="420.0" promptText="PASSWORD" styleClass="text-field" stylesheets="@style/style.css">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                           <effect>
+                              <InnerShadow height="25.0" offsetX="7.0" offsetY="7.0" radius="12.0" width="25.0">
+                                 <color>
+                                    <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                 </color>
+                                 <input>
+                                    <InnerShadow height="25.0" offsetX="-7.0" offsetY="-7.0" radius="12.0" width="25.0">
+                                       <color>
+                                          <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                       </color>
+                                    </InnerShadow>
+                                 </input>
+                              </InnerShadow>
+                           </effect>
+                        </TextField>
+                        <Pane fx:id="id_adm_closeEye_btn" layoutX="510.0" maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#action_adm_showPassword_btn" prefHeight="80.0" prefWidth="50.0" styleClass="eyes_btn" stylesheets="@style/style.css">
+                           <effect>
+                              <InnerShadow height="10.0" offsetX="-1.0" offsetY="-1.0" radius="4.5" width="10.0">
+                                 <color>
+                                    <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                 </color>
+                                 <input>
+                                    <InnerShadow height="10.0" offsetX="1.0" offsetY="1.0" radius="4.5" width="10.0">
+                                       <color>
+                                          <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                       </color>
+                                    </InnerShadow>
+                                 </input>
+                              </InnerShadow>
+                           </effect>
+                           <children>
+                              <ImageView fitHeight="24.0" fitWidth="31.0" layoutX="13.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@image/close_eye.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Label fx:id="id_adm_discribePassword" layoutX="90.0" layoutY="80.0" styleClass="discribe_text" stylesheets="@style/style.css" text="Label" />
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="25.0" />
+                     </VBox.margin>
+                  </Pane>
+                  <Button mnemonicParsing="false" onAction="#action_adm_TOSignInAdmin" styleClass="white_btn" stylesheets="@style/style.css" text="SIGN IN">
+                     <VBox.margin>
+                        <Insets bottom="25.0" />
+                     </VBox.margin>
+                  </Button>
+                  <AnchorPane prefHeight="166.0" prefWidth="650.0">
+                     <children>
+                        <ImageView fx:id="id_adm_progressBar" fitHeight="21.0" fitWidth="140.0" layoutX="255.0" layoutY="147.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@image/66.gif" />
+                           </image>
+                        </ImageView>
+                        <Button fx:id="id_adm_toLoginPage" layoutX="238.0" mnemonicParsing="false" onAction="#action_adm_TOLoginPage_btn" style="-fx-background-color: transparent;" styleClass="font_size_20px_light" stylesheets="@style/style.css" text="I'm not Admin!" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </VBox>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

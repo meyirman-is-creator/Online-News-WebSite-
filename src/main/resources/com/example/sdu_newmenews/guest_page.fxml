@@ -1,0 +1,1843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="900.0" prefWidth="1400.0" styleClass="border_pane_background" stylesheets="@style/style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sdu_newmenews.HomePage">
+   <children>
+      <AnchorPane fx:id="id_page" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="900.0" prefWidth="1400.0">
+         <children>
+            <AnchorPane layoutX="500.0" maxHeight="-Infinity" maxWidth="-Infinity">
+               <children>
+                  <Pane fx:id="id_scenePage" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="900.0" prefWidth="800.0" visible="false">
+                     <children>
+                        <BorderPane prefHeight="300.0" prefWidth="400.0">
+                           <center>
+                              <Pane maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#action_open1" prefHeight="250.0" prefWidth="250.0" style="-fx-background-radius: 10px;" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <ImageView fitHeight="156.0" fitWidth="220.0" layoutX="15.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@content_news/1.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label accessibleRole="CHECK_MENU_ITEM" cache="true" layoutX="15.0" layoutY="145.0" prefHeight="95.0" prefWidth="221.0" styleClass="text_in_pane" stylesheets="@style/style.css" text="Southern Water permitbreaches up 153% in one year" textAlignment="CENTER" wrapText="true" />
+                                 </children>
+                                 <effect>
+                                    <DropShadow offsetX="5.0" offsetY="5.0">
+                                       <color>
+                                          <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                       </color>
+                                       <input>
+                                          <DropShadow offsetX="-5.0" offsetY="-5.0">
+                                             <color>
+                                                <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                             </color>
+                                          </DropShadow>
+                                       </input>
+                                    </DropShadow>
+                                 </effect>
+                                 <styleClass>
+                                    <String fx:value="border_pane_background" />
+                                    <String fx:value="content_item" />
+                                 </styleClass>
+                              </Pane>
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutY="300.0" prefHeight="300.0" prefWidth="400.0">
+                           <center>
+                              <Pane maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#action_open3" prefHeight="250.0" prefWidth="250.0" style="-fx-background-radius: 10px;" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <ImageView fitHeight="156.0" fitWidth="220.0" layoutX="15.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@content_news/3.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Label accessibleRole="CHECK_MENU_ITEM" cache="true" layoutX="15.0" layoutY="145.0" prefHeight="95.0" prefWidth="221.0" styleClass="text_in_pane" stylesheets="@style/style.css" text="Heanor food factory staff made redundant after arrests" textAlignment="CENTER" wrapText="true" />
+                                 </children>
+                                 <effect>
+                                    <DropShadow offsetX="5.0" offsetY="5.0">
+                                       <color>
+                                          <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                       </color>
+                                       <input>
+                                          <DropShadow offsetX="-5.0" offsetY="-5.0">
+                                             <color>
+                                                <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                             </color>
+                                          </DropShadow>
+                                       </input>
+                                    </DropShadow>
+                                 </effect>
+                                 <styleClass>
+                                    <String fx:value="border_pane_background" />
+                                    <String fx:value="content_item" />
+                                 </styleClass>
+                              </Pane>
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutY="600.0" prefHeight="300.0" prefWidth="400.0">
+                           <center>
+                              <Pane maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#action_open5" prefHeight="250.0" prefWidth="250.0" style="-fx-background-radius: 10px;" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <ImageView fitHeight="156.0" fitWidth="220.0" layoutX="15.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@content_news/5.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label accessibleRole="CHECK_MENU_ITEM" cache="true" layoutX="15.0" layoutY="145.0" prefHeight="95.0" prefWidth="221.0" styleClass="text_in_pane" stylesheets="@style/style.css" text="New UK plan to reach net zero goal faces criticism" textAlignment="CENTER" wrapText="true" />
+                                 </children>
+                                 <effect>
+                                    <DropShadow offsetX="5.0" offsetY="5.0">
+                                       <color>
+                                          <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                       </color>
+                                       <input>
+                                          <DropShadow offsetX="-5.0" offsetY="-5.0">
+                                             <color>
+                                                <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                             </color>
+                                          </DropShadow>
+                                       </input>
+                                    </DropShadow>
+                                 </effect>
+                                 <styleClass>
+                                    <String fx:value="border_pane_background" />
+                                    <String fx:value="content_item" />
+                                 </styleClass>
+                              </Pane>
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutX="400.0" prefHeight="300.0" prefWidth="400.0">
+                           <center>
+                              <Pane maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#action_open2" prefHeight="250.0" prefWidth="250.0" style="-fx-background-radius: 10px;" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <ImageView fitHeight="156.0" fitWidth="220.0" layoutX="15.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@content_news/2.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label accessibleRole="CHECK_MENU_ITEM" cache="true" layoutX="15.0" layoutY="145.0" prefHeight="95.0" prefWidth="221.0" styleClass="text_in_pane" stylesheets="@style/style.css" text="Probe into meat 'falsely labelled' as British at supermarkets" textAlignment="CENTER" wrapText="true" />
+                                 </children>
+                                 <effect>
+                                    <DropShadow offsetX="5.0" offsetY="5.0">
+                                       <color>
+                                          <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                       </color>
+                                       <input>
+                                          <DropShadow offsetX="-5.0" offsetY="-5.0">
+                                             <color>
+                                                <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                             </color>
+                                          </DropShadow>
+                                       </input>
+                                    </DropShadow>
+                                 </effect>
+                                 <styleClass>
+                                    <String fx:value="border_pane_background" />
+                                    <String fx:value="content_item" />
+                                 </styleClass>
+                              </Pane>
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutX="400.0" layoutY="300.0" prefHeight="300.0" prefWidth="400.0">
+                           <center>
+                              <Pane maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#action_open4" prefHeight="250.0" prefWidth="250.0" style="-fx-background-radius: 10px;" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <ImageView fitHeight="156.0" fitWidth="220.0" layoutX="15.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@content_news/4.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label accessibleRole="CHECK_MENU_ITEM" cache="true" layoutX="15.0" layoutY="145.0" prefHeight="95.0" prefWidth="221.0" styleClass="text_in_pane" stylesheets="@style/style.css" text="Carbon capture: What is it and how does it fight climate change?" textAlignment="CENTER" wrapText="true" />
+                                 </children>
+                                 <effect>
+                                    <DropShadow offsetX="5.0" offsetY="5.0">
+                                       <color>
+                                          <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                       </color>
+                                       <input>
+                                          <DropShadow offsetX="-5.0" offsetY="-5.0">
+                                             <color>
+                                                <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                             </color>
+                                          </DropShadow>
+                                       </input>
+                                    </DropShadow>
+                                 </effect>
+                                 <styleClass>
+                                    <String fx:value="border_pane_background" />
+                                    <String fx:value="content_item" />
+                                 </styleClass>
+                              </Pane>
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutX="400.0" layoutY="600.0" prefHeight="300.0" prefWidth="400.0">
+                           <center>
+                              <Pane maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#action_open6" prefHeight="250.0" prefWidth="250.0" style="-fx-background-radius: 10px;" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <ImageView fitHeight="156.0" fitWidth="220.0" layoutX="15.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@content_news/6.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label accessibleRole="CHECK_MENU_ITEM" cache="true" layoutX="15.0" layoutY="145.0" prefHeight="95.0" prefWidth="221.0" styleClass="text_in_pane" stylesheets="@style/style.css" text="Devon hydrogen plant shortlisted for government support" textAlignment="CENTER" wrapText="true" />
+                                 </children>
+                                 <effect>
+                                    <DropShadow offsetX="5.0" offsetY="5.0">
+                                       <color>
+                                          <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                       </color>
+                                       <input>
+                                          <DropShadow offsetX="-5.0" offsetY="-5.0">
+                                             <color>
+                                                <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                             </color>
+                                          </DropShadow>
+                                       </input>
+                                    </DropShadow>
+                                 </effect>
+                                 <styleClass>
+                                    <String fx:value="border_pane_background" />
+                                    <String fx:value="content_item" />
+                                 </styleClass>
+                              </Pane>
+                           </center>
+                        </BorderPane>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="id_businessPage" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="900.0" prefWidth="800.0" visible="false">
+                     <children>
+                        <BorderPane prefHeight="300.0" prefWidth="400.0">
+                           <center>
+                              <Pane maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#action_open7" prefHeight="250.0" prefWidth="250.0" style="-fx-background-radius: 10px;" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <ImageView fitHeight="156.0" fitWidth="220.0" layoutX="15.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@content_news/7.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label accessibleRole="CHECK_MENU_ITEM" cache="true" layoutX="15.0" layoutY="145.0" prefHeight="95.0" prefWidth="221.0" styleClass="text_in_pane" stylesheets="@style/style.css" text="What is happening to house prices, and could there be a crash?" textAlignment="CENTER" wrapText="true" />
+                                 </children>
+                                 <effect>
+                                    <DropShadow offsetX="5.0" offsetY="5.0">
+                                       <color>
+                                          <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                       </color>
+                                       <input>
+                                          <DropShadow offsetX="-5.0" offsetY="-5.0">
+                                             <color>
+                                                <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                             </color>
+                                          </DropShadow>
+                                       </input>
+                                    </DropShadow>
+                                 </effect>
+                                 <styleClass>
+                                    <String fx:value="border_pane_background" />
+                                    <String fx:value="content_item" />
+                                 </styleClass>
+                              </Pane>
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutY="300.0" prefHeight="300.0" prefWidth="400.0">
+                           <center>
+                              <Pane maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#action_open9" prefHeight="250.0" prefWidth="250.0" style="-fx-background-radius: 10px;" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <ImageView fitHeight="156.0" fitWidth="220.0" layoutX="15.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@content_news/9.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label accessibleRole="CHECK_MENU_ITEM" cache="true" layoutX="15.0" layoutY="145.0" prefHeight="95.0" prefWidth="221.0" styleClass="text_in_pane" stylesheets="@style/style.css" text="Warning UK car industry under threat without help" textAlignment="CENTER" wrapText="true" />
+                                 </children>
+                                 <effect>
+                                    <DropShadow offsetX="5.0" offsetY="5.0">
+                                       <color>
+                                          <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                       </color>
+                                       <input>
+                                          <DropShadow offsetX="-5.0" offsetY="-5.0">
+                                             <color>
+                                                <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                             </color>
+                                          </DropShadow>
+                                       </input>
+                                    </DropShadow>
+                                 </effect>
+                                 <styleClass>
+                                    <String fx:value="border_pane_background" />
+                                    <String fx:value="content_item" />
+                                 </styleClass>
+                              </Pane>
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutY="600.0" prefHeight="300.0" prefWidth="400.0">
+                           <center>
+                              <Pane maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#action_open11" prefHeight="250.0" prefWidth="250.0" style="-fx-background-radius: 10px;" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <ImageView fitHeight="156.0" fitWidth="220.0" layoutX="15.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@content_news/11.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label accessibleRole="CHECK_MENU_ITEM" cache="true" layoutX="15.0" layoutY="145.0" prefHeight="95.0" prefWidth="221.0" styleClass="text_in_pane" stylesheets="@style/style.css" text="Next says prices to rise by less than expected this year" textAlignment="CENTER" wrapText="true" />
+                                 </children>
+                                 <effect>
+                                    <DropShadow offsetX="5.0" offsetY="5.0">
+                                       <color>
+                                          <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                       </color>
+                                       <input>
+                                          <DropShadow offsetX="-5.0" offsetY="-5.0">
+                                             <color>
+                                                <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                             </color>
+                                          </DropShadow>
+                                       </input>
+                                    </DropShadow>
+                                 </effect>
+                                 <styleClass>
+                                    <String fx:value="border_pane_background" />
+                                    <String fx:value="content_item" />
+                                 </styleClass>
+                              </Pane>
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutX="400.0" prefHeight="300.0" prefWidth="400.0">
+                           <center>
+                              <Pane maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#action_open8" prefHeight="250.0" prefWidth="250.0" style="-fx-background-radius: 10px;" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <ImageView fitHeight="156.0" fitWidth="220.0" layoutX="15.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@content_news/8.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label accessibleRole="CHECK_MENU_ITEM" cache="true" layoutX="15.0" layoutY="145.0" prefHeight="95.0" prefWidth="221.0" styleClass="text_in_pane" stylesheets="@style/style.css" text="Elon Musk among experts urging a halt to AI training" textAlignment="CENTER" wrapText="true" />
+                                 </children>
+                                 <effect>
+                                    <DropShadow offsetX="5.0" offsetY="5.0">
+                                       <color>
+                                          <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                       </color>
+                                       <input>
+                                          <DropShadow offsetX="-5.0" offsetY="-5.0">
+                                             <color>
+                                                <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                             </color>
+                                          </DropShadow>
+                                       </input>
+                                    </DropShadow>
+                                 </effect>
+                                 <styleClass>
+                                    <String fx:value="border_pane_background" />
+                                    <String fx:value="content_item" />
+                                 </styleClass>
+                              </Pane>
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutX="400.0" layoutY="300.0" prefHeight="300.0" prefWidth="400.0">
+                           <center>
+                              <Pane maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#action_open10" prefHeight="250.0" prefWidth="250.0" style="-fx-background-radius: 10px;" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <ImageView fitHeight="156.0" fitWidth="220.0" layoutX="15.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@content_news/10.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label accessibleRole="CHECK_MENU_ITEM" cache="true" layoutX="15.0" layoutY="145.0" prefHeight="95.0" prefWidth="221.0" styleClass="text_in_pane" stylesheets="@style/style.css" text="Mortgage lending hits lowest level since 2016 excluding pandemic" textAlignment="CENTER" wrapText="true" />
+                                 </children>
+                                 <effect>
+                                    <DropShadow offsetX="5.0" offsetY="5.0">
+                                       <color>
+                                          <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                       </color>
+                                       <input>
+                                          <DropShadow offsetX="-5.0" offsetY="-5.0">
+                                             <color>
+                                                <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                             </color>
+                                          </DropShadow>
+                                       </input>
+                                    </DropShadow>
+                                 </effect>
+                                 <styleClass>
+                                    <String fx:value="border_pane_background" />
+                                    <String fx:value="content_item" />
+                                 </styleClass>
+                              </Pane>
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutX="400.0" layoutY="600.0" prefHeight="300.0" prefWidth="400.0">
+                           <center>
+                              <Pane maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#action_open12" prefHeight="250.0" prefWidth="250.0" style="-fx-background-radius: 10px;" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <ImageView fitHeight="156.0" fitWidth="220.0" layoutX="15.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@content_news/12.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label accessibleRole="CHECK_MENU_ITEM" cache="true" layoutX="15.0" layoutY="145.0" prefHeight="95.0" prefWidth="221.0" styleClass="text_in_pane" stylesheets="@style/style.css" text="Adidas backtracks on Black Lives Matter design opposition" textAlignment="CENTER" wrapText="true" />
+                                 </children>
+                                 <effect>
+                                    <DropShadow offsetX="5.0" offsetY="5.0">
+                                       <color>
+                                          <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                       </color>
+                                       <input>
+                                          <DropShadow offsetX="-5.0" offsetY="-5.0">
+                                             <color>
+                                                <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                             </color>
+                                          </DropShadow>
+                                       </input>
+                                    </DropShadow>
+                                 </effect>
+                                 <styleClass>
+                                    <String fx:value="border_pane_background" />
+                                    <String fx:value="content_item" />
+                                 </styleClass>
+                              </Pane>
+                           </center>
+                        </BorderPane>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="id_techPage" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="900.0" prefWidth="800.0" visible="false">
+                     <children>
+                        <BorderPane prefHeight="300.0" prefWidth="400.0">
+                           <center>
+                              <Pane maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#action_open13" prefHeight="250.0" prefWidth="250.0" style="-fx-background-radius: 10px;" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <ImageView fitHeight="156.0" fitWidth="220.0" layoutX="15.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@content_news/13.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label accessibleRole="CHECK_MENU_ITEM" cache="true" layoutX="15.0" layoutY="145.0" prefHeight="95.0" prefWidth="221.0" styleClass="text_in_pane" stylesheets="@style/style.css" text="Google: India tribunal upholds $160m fine on company" textAlignment="CENTER" wrapText="true" />
+                                 </children>
+                                 <effect>
+                                    <DropShadow offsetX="5.0" offsetY="5.0">
+                                       <color>
+                                          <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                       </color>
+                                       <input>
+                                          <DropShadow offsetX="-5.0" offsetY="-5.0">
+                                             <color>
+                                                <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                             </color>
+                                          </DropShadow>
+                                       </input>
+                                    </DropShadow>
+                                 </effect>
+                                 <styleClass>
+                                    <String fx:value="border_pane_background" />
+                                    <String fx:value="content_item" />
+                                 </styleClass>
+                              </Pane>
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutY="300.0" prefHeight="300.0" prefWidth="400.0">
+                           <center>
+                              <Pane maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#action_open15" prefHeight="250.0" prefWidth="250.0" style="-fx-background-radius: 10px;" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <ImageView fitHeight="156.0" fitWidth="220.0" layoutX="15.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@content_news/15.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label accessibleRole="CHECK_MENU_ITEM" cache="true" layoutX="15.0" layoutY="145.0" prefHeight="95.0" prefWidth="221.0" styleClass="text_in_pane" stylesheets="@style/style.css" text="China tech giant shares jump after breakup plan announced" textAlignment="CENTER" wrapText="true" />
+                                 </children>
+                                 <effect>
+                                    <DropShadow offsetX="5.0" offsetY="5.0">
+                                       <color>
+                                          <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                       </color>
+                                       <input>
+                                          <DropShadow offsetX="-5.0" offsetY="-5.0">
+                                             <color>
+                                                <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                             </color>
+                                          </DropShadow>
+                                       </input>
+                                    </DropShadow>
+                                 </effect>
+                                 <styleClass>
+                                    <String fx:value="border_pane_background" />
+                                    <String fx:value="content_item" />
+                                 </styleClass>
+                              </Pane>
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutY="600.0" prefHeight="300.0" prefWidth="400.0">
+                           <center>
+                              <Pane maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#action_open17" prefHeight="250.0" prefWidth="250.0" style="-fx-background-radius: 10px;" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <ImageView fitHeight="156.0" fitWidth="220.0" layoutX="15.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@content_news/17.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label accessibleRole="CHECK_MENU_ITEM" cache="true" layoutX="15.0" layoutY="145.0" prefHeight="95.0" prefWidth="221.0" styleClass="text_in_pane" stylesheets="@style/style.css" text="Elon Musk: Twitter boss announces blue tick shake-up" textAlignment="CENTER" wrapText="true" />
+                                 </children>
+                                 <effect>
+                                    <DropShadow offsetX="5.0" offsetY="5.0">
+                                       <color>
+                                          <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                       </color>
+                                       <input>
+                                          <DropShadow offsetX="-5.0" offsetY="-5.0">
+                                             <color>
+                                                <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                             </color>
+                                          </DropShadow>
+                                       </input>
+                                    </DropShadow>
+                                 </effect>
+                                 <styleClass>
+                                    <String fx:value="border_pane_background" />
+                                    <String fx:value="content_item" />
+                                 </styleClass>
+                              </Pane>
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutX="400.0" prefHeight="300.0" prefWidth="400.0">
+                           <center>
+                              <Pane maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#action_open14" prefHeight="250.0" prefWidth="250.0" style="-fx-background-radius: 10px;" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <ImageView fitHeight="156.0" fitWidth="220.0" layoutX="15.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@content_news/14.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label accessibleRole="CHECK_MENU_ITEM" cache="true" layoutX="15.0" layoutY="145.0" prefHeight="95.0" prefWidth="221.0" styleClass="text_in_pane" stylesheets="@style/style.css" text="AI could replace equivalent of 300 million jobs - report" textAlignment="CENTER" wrapText="true" />
+                                 </children>
+                                 <effect>
+                                    <DropShadow offsetX="5.0" offsetY="5.0">
+                                       <color>
+                                          <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                       </color>
+                                       <input>
+                                          <DropShadow offsetX="-5.0" offsetY="-5.0">
+                                             <color>
+                                                <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                             </color>
+                                          </DropShadow>
+                                       </input>
+                                    </DropShadow>
+                                 </effect>
+                                 <styleClass>
+                                    <String fx:value="border_pane_background" />
+                                    <String fx:value="content_item" />
+                                 </styleClass>
+                              </Pane>
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutX="400.0" layoutY="300.0" prefHeight="300.0" prefWidth="400.0">
+                           <center>
+                              <Pane maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#action_open16" prefHeight="250.0" prefWidth="250.0" style="-fx-background-radius: 10px;" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <ImageView fitHeight="156.0" fitWidth="220.0" layoutX="15.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@content_news/16.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label accessibleRole="CHECK_MENU_ITEM" cache="true" layoutX="15.0" layoutY="145.0" prefHeight="95.0" prefWidth="221.0" styleClass="text_in_pane" stylesheets="@style/style.css" text="Clearview AI used nearly 1m times by US police, it tells the BBC" textAlignment="CENTER" wrapText="true" />
+                                    <Pane fx:id="id_climatePage" layoutX="-184.0" layoutY="-435.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="900.0" prefWidth="800.0" visible="false">
+                                       <children>
+                                          <BorderPane prefHeight="300.0" prefWidth="400.0">
+                                             <center>
+                                                <Pane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="250.0" prefWidth="250.0" style="-fx-background-radius: 10px;" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <ImageView fitHeight="156.0" fitWidth="220.0" layoutX="15.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                                         <image>
+                                                            <Image url="@content_news/19.jpg" />
+                                                         </image>
+                                                      </ImageView>
+                                                      <Label accessibleRole="CHECK_MENU_ITEM" cache="true" layoutX="15.0" layoutY="145.0" prefHeight="95.0" prefWidth="221.0" styleClass="text_in_pane" stylesheets="@style/style.css" text="World's top court to weigh in" textAlignment="CENTER" wrapText="true" />
+                                                   </children>
+                                                   <effect>
+                                                      <DropShadow offsetX="5.0" offsetY="5.0">
+                                                         <color>
+                                                            <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                                         </color>
+                                                         <input>
+                                                            <DropShadow offsetX="-5.0" offsetY="-5.0">
+                                                               <color>
+                                                                  <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                                               </color>
+                                                            </DropShadow>
+                                                         </input>
+                                                      </DropShadow>
+                                                   </effect>
+                                                   <styleClass>
+                                                      <String fx:value="border_pane_background" />
+                                                      <String fx:value="content_item" />
+                                                   </styleClass>
+                                                </Pane>
+                                             </center>
+                                          </BorderPane>
+                                          <BorderPane layoutY="300.0" prefHeight="300.0" prefWidth="400.0">
+                                             <center>
+                                                <Pane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="250.0" prefWidth="250.0" style="-fx-background-radius: 10px;" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <ImageView fitHeight="156.0" fitWidth="220.0" layoutX="15.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                                         <image>
+                                                            <Image url="@content_news/21.jpg" />
+                                                         </image>
+                                                      </ImageView>
+                                                      <Label accessibleRole="CHECK_MENU_ITEM" cache="true" layoutX="15.0" layoutY="145.0" prefHeight="95.0" prefWidth="221.0" styleClass="text_in_pane" stylesheets="@style/style.css" text="Swiss court case ties human rights to climate change" textAlignment="CENTER" wrapText="true" />
+                                                   </children>
+                                                   <effect>
+                                                      <DropShadow offsetX="5.0" offsetY="5.0">
+                                                         <color>
+                                                            <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                                         </color>
+                                                         <input>
+                                                            <DropShadow offsetX="-5.0" offsetY="-5.0">
+                                                               <color>
+                                                                  <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                                               </color>
+                                                            </DropShadow>
+                                                         </input>
+                                                      </DropShadow>
+                                                   </effect>
+                                                   <styleClass>
+                                                      <String fx:value="border_pane_background" />
+                                                      <String fx:value="content_item" />
+                                                   </styleClass>
+                                                </Pane>
+                                             </center>
+                                          </BorderPane>
+                                          <BorderPane layoutY="600.0" prefHeight="300.0" prefWidth="400.0">
+                                             <center>
+                                                <Pane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="250.0" prefWidth="250.0" style="-fx-background-radius: 10px;" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <ImageView fitHeight="156.0" fitWidth="220.0" layoutX="15.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                                         <image>
+                                                            <Image url="@content_news/23.jpg" />
+                                                         </image>
+                                                      </ImageView>
+                                                      <Label accessibleRole="CHECK_MENU_ITEM" cache="true" layoutX="15.0" layoutY="145.0" prefHeight="95.0" prefWidth="221.0" styleClass="text_in_pane" stylesheets="@style/style.css" text="BBC Sport research shows 81 flights from 100 games" textAlignment="CENTER" wrapText="true" />
+                                                   </children>
+                                                   <effect>
+                                                      <DropShadow offsetX="5.0" offsetY="5.0">
+                                                         <color>
+                                                            <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                                         </color>
+                                                         <input>
+                                                            <DropShadow offsetX="-5.0" offsetY="-5.0">
+                                                               <color>
+                                                                  <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                                               </color>
+                                                            </DropShadow>
+                                                         </input>
+                                                      </DropShadow>
+                                                   </effect>
+                                                   <styleClass>
+                                                      <String fx:value="border_pane_background" />
+                                                      <String fx:value="content_item" />
+                                                   </styleClass>
+                                                </Pane>
+                                             </center>
+                                          </BorderPane>
+                                          <BorderPane layoutX="400.0" prefHeight="300.0" prefWidth="400.0">
+                                             <center>
+                                                <Pane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="250.0" prefWidth="250.0" style="-fx-background-radius: 10px;" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <ImageView fitHeight="156.0" fitWidth="220.0" layoutX="15.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                                         <image>
+                                                            <Image url="@content_news/20.jpg" />
+                                                         </image>
+                                                      </ImageView>
+                                                      <Label accessibleRole="CHECK_MENU_ITEM" cache="true" layoutX="15.0" layoutY="145.0" prefHeight="95.0" prefWidth="221.0" styleClass="text_in_pane" stylesheets="@style/style.css" text="England not ready for impact" textAlignment="CENTER" wrapText="true" />
+                                                   </children>
+                                                   <effect>
+                                                      <DropShadow offsetX="5.0" offsetY="5.0">
+                                                         <color>
+                                                            <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                                         </color>
+                                                         <input>
+                                                            <DropShadow offsetX="-5.0" offsetY="-5.0">
+                                                               <color>
+                                                                  <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                                               </color>
+                                                            </DropShadow>
+                                                         </input>
+                                                      </DropShadow>
+                                                   </effect>
+                                                   <styleClass>
+                                                      <String fx:value="border_pane_background" />
+                                                      <String fx:value="content_item" />
+                                                   </styleClass>
+                                                </Pane>
+                                             </center>
+                                          </BorderPane>
+                                          <BorderPane layoutX="400.0" layoutY="300.0" prefHeight="300.0" prefWidth="400.0">
+                                             <center>
+                                                <Pane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="250.0" prefWidth="250.0" style="-fx-background-radius: 10px;" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <ImageView fitHeight="156.0" fitWidth="220.0" layoutX="15.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                                         <image>
+                                                            <Image url="@content_news/22.jpg" />
+                                                         </image>
+                                                      </ImageView>
+                                                      <Label accessibleRole="CHECK_MENU_ITEM" cache="true" layoutX="15.0" layoutY="145.0" prefHeight="95.0" prefWidth="221.0" styleClass="text_in_pane" stylesheets="@style/style.css" text="New cars sold in EU must be zero-emission from 2035" textAlignment="CENTER" wrapText="true" />
+                                                   </children>
+                                                   <effect>
+                                                      <DropShadow offsetX="5.0" offsetY="5.0">
+                                                         <color>
+                                                            <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                                         </color>
+                                                         <input>
+                                                            <DropShadow offsetX="-5.0" offsetY="-5.0">
+                                                               <color>
+                                                                  <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                                               </color>
+                                                            </DropShadow>
+                                                         </input>
+                                                      </DropShadow>
+                                                   </effect>
+                                                   <styleClass>
+                                                      <String fx:value="border_pane_background" />
+                                                      <String fx:value="content_item" />
+                                                   </styleClass>
+                                                </Pane>
+                                             </center>
+                                          </BorderPane>
+                                          <BorderPane layoutX="400.0" layoutY="594.0" prefHeight="300.0" prefWidth="400.0">
+                                             <center>
+                                                <Pane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="250.0" prefWidth="250.0" style="-fx-background-radius: 10px;" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <ImageView fitHeight="156.0" fitWidth="220.0" layoutX="15.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                                         <image>
+                                                            <Image url="@content_news/24.jpg" />
+                                                         </image>
+                                                      </ImageView>
+                                                      <Label accessibleRole="CHECK_MENU_ITEM" cache="true" layoutX="15.0" layoutY="145.0" prefHeight="95.0" prefWidth="221.0" styleClass="text_in_pane" stylesheets="@style/style.css" text="UN warns against 'vampiric' global water use" textAlignment="CENTER" wrapText="true" />
+                                                   </children>
+                                                   <effect>
+                                                      <DropShadow offsetX="5.0" offsetY="5.0">
+                                                         <color>
+                                                            <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                                         </color>
+                                                         <input>
+                                                            <DropShadow offsetX="-5.0" offsetY="-5.0">
+                                                               <color>
+                                                                  <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                                               </color>
+                                                            </DropShadow>
+                                                         </input>
+                                                      </DropShadow>
+                                                   </effect>
+                                                   <styleClass>
+                                                      <String fx:value="border_pane_background" />
+                                                      <String fx:value="content_item" />
+                                                   </styleClass>
+                                                </Pane>
+                                             </center>
+                                          </BorderPane>
+                                       </children>
+                                    </Pane>
+                                 </children>
+                                 <effect>
+                                    <DropShadow offsetX="5.0" offsetY="5.0">
+                                       <color>
+                                          <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                       </color>
+                                       <input>
+                                          <DropShadow offsetX="-5.0" offsetY="-5.0">
+                                             <color>
+                                                <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                             </color>
+                                          </DropShadow>
+                                       </input>
+                                    </DropShadow>
+                                 </effect>
+                                 <styleClass>
+                                    <String fx:value="border_pane_background" />
+                                    <String fx:value="content_item" />
+                                 </styleClass>
+                              </Pane>
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutX="400.0" layoutY="600.0" prefHeight="300.0" prefWidth="400.0">
+                           <center>
+                              <Pane maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#action_open18" prefHeight="250.0" prefWidth="250.0" style="-fx-background-radius: 10px;" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <ImageView fitHeight="156.0" fitWidth="220.0" layoutX="15.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@content_news/18.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label accessibleRole="CHECK_MENU_ITEM" cache="true" layoutX="15.0" layoutY="145.0" prefHeight="95.0" prefWidth="221.0" styleClass="text_in_pane" stylesheets="@style/style.css" text="Why fun apps are banned on French officials' phones" textAlignment="CENTER" wrapText="true" />
+                                 </children>
+                                 <effect>
+                                    <DropShadow offsetX="5.0" offsetY="5.0">
+                                       <color>
+                                          <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                       </color>
+                                       <input>
+                                          <DropShadow offsetX="-5.0" offsetY="-5.0">
+                                             <color>
+                                                <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                             </color>
+                                          </DropShadow>
+                                       </input>
+                                    </DropShadow>
+                                 </effect>
+                                 <styleClass>
+                                    <String fx:value="border_pane_background" />
+                                    <String fx:value="content_item" />
+                                 </styleClass>
+                              </Pane>
+                           </center>
+                        </BorderPane>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="id_climatePage" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="900.0" prefWidth="800.0">
+                     <children>
+                        <BorderPane prefHeight="300.0" prefWidth="400.0">
+                           <center>
+                              <Pane maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#action_open19" prefHeight="250.0" prefWidth="250.0" style="-fx-background-radius: 10px;" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <ImageView fitHeight="156.0" fitWidth="220.0" layoutX="15.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@content_news/19.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label accessibleRole="CHECK_MENU_ITEM" cache="true" layoutX="15.0" layoutY="145.0" prefHeight="95.0" prefWidth="221.0" styleClass="text_in_pane" stylesheets="@style/style.css" text="World's top court to weigh in" textAlignment="CENTER" wrapText="true" />
+                                 </children>
+                                 <effect>
+                                    <DropShadow offsetX="5.0" offsetY="5.0">
+                                       <color>
+                                          <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                       </color>
+                                       <input>
+                                          <DropShadow offsetX="-5.0" offsetY="-5.0">
+                                             <color>
+                                                <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                             </color>
+                                          </DropShadow>
+                                       </input>
+                                    </DropShadow>
+                                 </effect>
+                                 <styleClass>
+                                    <String fx:value="border_pane_background" />
+                                    <String fx:value="content_item" />
+                                 </styleClass>
+                              </Pane>
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutY="300.0" prefHeight="300.0" prefWidth="400.0">
+                           <center>
+                              <Pane maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#action_open21" prefHeight="250.0" prefWidth="250.0" style="-fx-background-radius: 10px;" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <ImageView fitHeight="156.0" fitWidth="220.0" layoutX="15.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@content_news/21.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label accessibleRole="CHECK_MENU_ITEM" cache="true" layoutX="15.0" layoutY="145.0" prefHeight="95.0" prefWidth="221.0" styleClass="text_in_pane" stylesheets="@style/style.css" text="Swiss court case ties human rights to climate change" textAlignment="CENTER" wrapText="true" />
+                                 </children>
+                                 <effect>
+                                    <DropShadow offsetX="5.0" offsetY="5.0">
+                                       <color>
+                                          <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                       </color>
+                                       <input>
+                                          <DropShadow offsetX="-5.0" offsetY="-5.0">
+                                             <color>
+                                                <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                             </color>
+                                          </DropShadow>
+                                       </input>
+                                    </DropShadow>
+                                 </effect>
+                                 <styleClass>
+                                    <String fx:value="border_pane_background" />
+                                    <String fx:value="content_item" />
+                                 </styleClass>
+                              </Pane>
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutY="600.0" prefHeight="300.0" prefWidth="400.0">
+                           <center>
+                              <Pane maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#action_open23" prefHeight="250.0" prefWidth="250.0" style="-fx-background-radius: 10px;" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <ImageView fitHeight="156.0" fitWidth="220.0" layoutX="15.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@content_news/23.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label accessibleRole="CHECK_MENU_ITEM" cache="true" layoutX="15.0" layoutY="145.0" prefHeight="95.0" prefWidth="221.0" styleClass="text_in_pane" stylesheets="@style/style.css" text="BBC Sport research shows 81 flights from 100 games" textAlignment="CENTER" wrapText="true" />
+                                 </children>
+                                 <effect>
+                                    <DropShadow offsetX="5.0" offsetY="5.0">
+                                       <color>
+                                          <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                       </color>
+                                       <input>
+                                          <DropShadow offsetX="-5.0" offsetY="-5.0">
+                                             <color>
+                                                <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                             </color>
+                                          </DropShadow>
+                                       </input>
+                                    </DropShadow>
+                                 </effect>
+                                 <styleClass>
+                                    <String fx:value="border_pane_background" />
+                                    <String fx:value="content_item" />
+                                 </styleClass>
+                              </Pane>
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutX="400.0" prefHeight="300.0" prefWidth="400.0">
+                           <center>
+                              <Pane maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#action_open20" prefHeight="250.0" prefWidth="250.0" style="-fx-background-radius: 10px;" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <ImageView fitHeight="156.0" fitWidth="220.0" layoutX="15.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@content_news/20.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label accessibleRole="CHECK_MENU_ITEM" cache="true" layoutX="15.0" layoutY="145.0" prefHeight="95.0" prefWidth="221.0" styleClass="text_in_pane" stylesheets="@style/style.css" text="England not ready for impact" textAlignment="CENTER" wrapText="true" />
+                                 </children>
+                                 <effect>
+                                    <DropShadow offsetX="5.0" offsetY="5.0">
+                                       <color>
+                                          <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                       </color>
+                                       <input>
+                                          <DropShadow offsetX="-5.0" offsetY="-5.0">
+                                             <color>
+                                                <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                             </color>
+                                          </DropShadow>
+                                       </input>
+                                    </DropShadow>
+                                 </effect>
+                                 <styleClass>
+                                    <String fx:value="border_pane_background" />
+                                    <String fx:value="content_item" />
+                                 </styleClass>
+                              </Pane>
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutX="400.0" layoutY="300.0" prefHeight="300.0" prefWidth="400.0">
+                           <center>
+                              <Pane maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#action_open22" prefHeight="250.0" prefWidth="250.0" style="-fx-background-radius: 10px;" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <ImageView fitHeight="156.0" fitWidth="220.0" layoutX="15.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@content_news/22.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label accessibleRole="CHECK_MENU_ITEM" cache="true" layoutX="15.0" layoutY="145.0" prefHeight="95.0" prefWidth="221.0" styleClass="text_in_pane" stylesheets="@style/style.css" text="New cars sold in EU must be zero-emission from 2035" textAlignment="CENTER" wrapText="true" />
+                                 </children>
+                                 <effect>
+                                    <DropShadow offsetX="5.0" offsetY="5.0">
+                                       <color>
+                                          <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                       </color>
+                                       <input>
+                                          <DropShadow offsetX="-5.0" offsetY="-5.0">
+                                             <color>
+                                                <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                             </color>
+                                          </DropShadow>
+                                       </input>
+                                    </DropShadow>
+                                 </effect>
+                                 <styleClass>
+                                    <String fx:value="border_pane_background" />
+                                    <String fx:value="content_item" />
+                                 </styleClass>
+                              </Pane>
+                           </center>
+                        </BorderPane>
+                        <BorderPane layoutX="400.0" layoutY="600.0" prefHeight="300.0" prefWidth="400.0">
+                           <center>
+                              <Pane maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#action_open24" prefHeight="250.0" prefWidth="250.0" style="-fx-background-radius: 10px;" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <ImageView fitHeight="156.0" fitWidth="220.0" layoutX="15.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@content_news/24.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label accessibleRole="CHECK_MENU_ITEM" cache="true" layoutX="15.0" layoutY="145.0" prefHeight="95.0" prefWidth="221.0" styleClass="text_in_pane" stylesheets="@style/style.css" text="UN warns against 'vampiric' global water use" textAlignment="CENTER" wrapText="true" />
+                                 </children>
+                                 <effect>
+                                    <DropShadow offsetX="5.0" offsetY="5.0">
+                                       <color>
+                                          <Color red="0.5882353186607361" green="0.5098039507865906" blue="0.5921568870544434" />
+                                       </color>
+                                       <input>
+                                          <DropShadow offsetX="-5.0" offsetY="-5.0">
+                                             <color>
+                                                <Color red="1.0" green="0.9843137264251709" blue="1.0" />
+                                             </color>
+                                          </DropShadow>
+                                       </input>
+                                    </DropShadow>
+                                 </effect>
+                                 <styleClass>
+                                    <String fx:value="border_pane_background" />
+                                    <String fx:value="content_item" />
+                                 </styleClass>
+                              </Pane>
+                           </center>
+                        </BorderPane>
+                     </children>
+                  </Pane>
+               </children>
+            </AnchorPane>
+            <VBox fx:id="id_menuPage" prefHeight="900.0" prefWidth="500.0" styleClass="vBox_menu" stylesheets="@style/style.css">
+               <children>
+                  <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="250.0" prefWidth="500.0">
+                     <children>
+                        <ImageView fitHeight="66.0" fitWidth="66.0" layoutX="217.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@image/icon_logo.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="184.0" layoutY="89.0" styleClass="text_logo" text="NewMENews" />
+                        <ImageView fitHeight="26.0" fitWidth="32.0" layoutX="455.0" layoutY="14.0" onMouseClicked="#action_toCloseMenuBar" pickOnBounds="true" preserveRatio="true" style="-fx-cursor: hand;">
+                           <image>
+                              <Image url="@image/to_closeMenu.jpg" />
+                           </image>
+                        </ImageView>
+                        <Button fx:id="id_news_page_start" layoutX="130.0" layoutY="150.0" mnemonicParsing="false" onAction="#action_startLogin" styleClass="white_btn" stylesheets="@style/style.css" text="START" visible="false" />
+                        <Button fx:id="id_new_page_logout" layoutX="130.0" layoutY="150.0" mnemonicParsing="false" onMouseClicked="#action_logout" styleClass="white_btn" stylesheets="@style/style.css" text="LOG OUT" visible="false" />
+                        <Pane layoutY="123.0" prefHeight="141.0" prefWidth="500.0">
+                           <children>
+                              <ImageView fitHeight="128.0" fitWidth="113.0" layoutX="77.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@image/itsme.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Label accessibleRole="CHECK_MENU_ITEM" cache="true" layoutX="227.0" layoutY="2.0" prefHeight="44.0" prefWidth="173.0" stylesheets="@style/style.css" text="Meyirman The Creator Admin" wrapText="true">
+                                 <styleClass>
+                                    <String fx:value="text_in_pane" />
+                                    <String fx:value="text_in_pane_text" />
+                                 </styleClass>
+                              </Label>
+                              <Button layoutX="227.0" layoutY="46.0" mnemonicParsing="false" styleClass="white_btn" stylesheets="@style/style.css" text="LOG OUT" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="500.0" prefWidth="300.0">
+                     <children>
+                        <Button fx:id="id_menu_sceneBtn_nonActive" layoutX="30.0" layoutY="50.0" mnemonicParsing="false" onAction="#action_openScenePage" prefHeight="50.0" prefWidth="150.0" styleClass="btn_menu" text="SCENE" />
+                        <Button fx:id="id_menu_businessBtn_nonActive" layoutX="30.0" layoutY="120.0" mnemonicParsing="false" onAction="#action_openBusinessPage" prefHeight="50.0" prefWidth="150.0" styleClass="btn_menu" text="BUSINESS" />
+                        <Button fx:id="id_menu_techBtn_nonActive" layoutX="30.0" layoutY="190.0" mnemonicParsing="false" onAction="#action_openTechPage" prefHeight="50.0" prefWidth="150.0" styleClass="btn_menu" text="TECH" />
+                        <Button fx:id="id_menu_climateBtn_nonActive" layoutX="30.0" layoutY="260.0" mnemonicParsing="false" onAction="#action_openClimatePage" prefHeight="50.0" prefWidth="150.0" styleClass="btn_menu" text="CLIMATE" />
+                        <Button fx:id="id_menu_sceneBtn_Active" layoutX="30.0" layoutY="50.0" mnemonicParsing="false" onAction="#action_openScenePage" prefHeight="50.0" prefWidth="150.0" stylesheets="@style/style.css" text="SCENE" visible="false">
+                           <styleClass>
+                              <String fx:value="btn_menu" />
+                              <String fx:value="btn_menu_active" />
+                              <String fx:value="simple_btn" />
+                           </styleClass>
+                        </Button>
+                        <Button fx:id="id_menu_businessBtn_Active" layoutX="30.0" layoutY="120.0" mnemonicParsing="false" onAction="#action_openBusinessPage" prefHeight="50.0" prefWidth="150.0" text="BUSINESS" visible="false">
+                           <styleClass>
+                              <String fx:value="btn_menu" />
+                              <String fx:value="btn_menu_active" />
+                           </styleClass>
+                        </Button>
+                        <Button fx:id="id_menu_techBtn_Active" focusTraversable="false" layoutX="30.0" layoutY="190.0" mnemonicParsing="false" onAction="#action_openTechPage" prefHeight="50.0" prefWidth="150.0" text="TECH" visible="false">
+                           <styleClass>
+                              <String fx:value="btn_menu" />
+                              <String fx:value="btn_menu_active" />
+                           </styleClass>
+                        </Button>
+                        <Button fx:id="id_menu_climateBtn_Active" layoutX="30.0" layoutY="260.0" mnemonicParsing="false" onAction="#action_openClimatePage" prefHeight="50.0" prefWidth="150.0" text="CLIMATE">
+                           <styleClass>
+                              <String fx:value="btn_menu" />
+                              <String fx:value="btn_menu_active" />
+                           </styleClass>
+                        </Button>
+                        <Label layoutX="103.0" layoutY="1.0" styleClass="text_in_menu" text="Here you can see the news!" />
+                        <Pane fx:id="id_menu_sceneItems" layoutX="180.0" layoutY="50.0" maxWidth="-Infinity" prefHeight="450.0" prefWidth="302.0" style="-fx-background-color: #000;" styleClass="menu_bar_content" visible="false">
+                           <children>
+                              <Button layoutX="1.0" layoutY="1.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#action_menu_1open" prefHeight="75.0" prefWidth="300.0" styleClass="menu_bar_content_item" text="Southern Water permitbreaches up 153% in one year" textAlignment="JUSTIFY" wrapText="true" />
+                              <Button layoutX="1.0" layoutY="76.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#action_menu_2open" prefHeight="75.0" prefWidth="300.0" styleClass="menu_bar_content_item" text="Probe into meat 'falsely labelled' as British at supermarkets" textAlignment="JUSTIFY" wrapText="true" />
+                              <Button layoutX="1.0" layoutY="151.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#action_menu_3open" prefHeight="75.0" prefWidth="300.0" styleClass="menu_bar_content_item" text="Heanor food factory staff made redundant after arrests" textAlignment="JUSTIFY" wrapText="true" />
+                              <Button layoutX="1.0" layoutY="226.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#action_menu_4open" prefHeight="75.0" prefWidth="300.0" styleClass="menu_bar_content_item" text="Carbon capture: What is it and how does it fight climate change?" textAlignment="JUSTIFY" wrapText="true" />
+                              <Button layoutX="1.0" layoutY="301.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#action_menu_5open" prefHeight="75.0" prefWidth="300.0" styleClass="menu_bar_content_item" text="New UK plan to reach net zero goal faces criticism" textAlignment="JUSTIFY" wrapText="true" />
+                              <Button layoutX="1.0" layoutY="376.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#action_menu_6open" prefHeight="75.0" prefWidth="300.0" styleClass="menu_bar_content_item" text="Devon hydrogen plant shortlisted for government support" textAlignment="JUSTIFY" wrapText="true" />
+                           </children></Pane>
+                        <Pane fx:id="id_menu_businessItems" layoutX="180.0" layoutY="50.0" maxWidth="-Infinity" prefHeight="450.0" prefWidth="302.0" style="-fx-background-color: #000;" styleClass="menu_bar_content" visible="false">
+                           <children>
+                              <Button layoutX="1.0" layoutY="1.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#action_menu_7open" prefHeight="75.0" prefWidth="300.0" styleClass="menu_bar_content_item" text="What is happening to house prices, and could there be a crash?" textAlignment="JUSTIFY" wrapText="true" />
+                              <Button layoutX="1.0" layoutY="76.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#action_menu_8open" prefHeight="75.0" prefWidth="300.0" styleClass="menu_bar_content_item" text="Elon Musk among experts urging a halt to AI training" textAlignment="JUSTIFY" wrapText="true" />
+                              <Button layoutX="1.0" layoutY="151.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#action_menu_9open" prefHeight="75.0" prefWidth="300.0" styleClass="menu_bar_content_item" text="Warning UK car industry under threat without help" textAlignment="JUSTIFY" wrapText="true" />
+                              <Button layoutX="1.0" layoutY="226.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#action_menu_10open" prefHeight="75.0" prefWidth="300.0" styleClass="menu_bar_content_item" text="Mortgage lending hits lowest level since 2016 excluding pandemic" textAlignment="JUSTIFY" wrapText="true" />
+                              <Button layoutX="1.0" layoutY="301.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#action_menu_11open" prefHeight="75.0" prefWidth="300.0" styleClass="menu_bar_content_item" text="Next says prices to rise by less than expected this year" textAlignment="JUSTIFY" wrapText="true" />
+                              <Button layoutX="1.0" layoutY="376.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#action_menu_12open" prefHeight="75.0" prefWidth="300.0" styleClass="menu_bar_content_item" text="Adidas backtracks on Black Lives Matter design opposition" textAlignment="JUSTIFY" wrapText="true" />
+                           </children>
+                        </Pane>
+                        <Pane fx:id="id_menu_techItems" layoutX="180.0" layoutY="50.0" maxWidth="-Infinity" prefHeight="450.0" prefWidth="302.0" style="-fx-background-color: #000;" styleClass="menu_bar_content" visible="false">
+                           <children>
+                              <Button layoutX="1.0" layoutY="1.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#action_menu_13open" prefHeight="75.0" prefWidth="300.0" styleClass="menu_bar_content_item" text="Google: India tribunal upholds $160m fine on company" textAlignment="JUSTIFY" wrapText="true" />
+                              <Button layoutX="1.0" layoutY="76.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#action_menu_14open" prefHeight="75.0" prefWidth="300.0" styleClass="menu_bar_content_item" text="AI could replace equivalent of 300 million jobs - report" textAlignment="JUSTIFY" wrapText="true" />
+                              <Button layoutX="1.0" layoutY="151.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#action_menu_15open" prefHeight="75.0" prefWidth="300.0" styleClass="menu_bar_content_item" text="China tech giant shares jump after breakup plan announced" textAlignment="JUSTIFY" wrapText="true" />
+                              <Button layoutX="1.0" layoutY="226.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#action_menu_16open" prefHeight="75.0" prefWidth="300.0" styleClass="menu_bar_content_item" text="Clearview AI used nearly 1m times by US police, it tells the BBC" textAlignment="JUSTIFY" wrapText="true" />
+                              <Button layoutX="1.0" layoutY="301.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#action_menu_17open" prefHeight="75.0" prefWidth="300.0" styleClass="menu_bar_content_item" text="Elon Musk: Twitter boss announces blue tick shake-up" textAlignment="JUSTIFY" wrapText="true" />
+                              <Button layoutX="1.0" layoutY="376.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#action_menu_18open" prefHeight="75.0" prefWidth="300.0" styleClass="menu_bar_content_item" text="Why fun apps are banned on French officials' phones" textAlignment="JUSTIFY" wrapText="true" />
+                           </children>
+                        </Pane>
+                        <Pane fx:id="id_menu_climateItems" layoutX="180.0" layoutY="50.0" maxWidth="-Infinity" prefHeight="450.0" prefWidth="302.0" style="-fx-background-color: #000;" styleClass="menu_bar_content">
+                           <children>
+                              <Button layoutX="1.0" layoutY="1.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#action_menu_19open" prefHeight="75.0" prefWidth="300.0" styleClass="menu_bar_content_item" text="World's top court to weigh in" textAlignment="JUSTIFY" wrapText="true" />
+                              <Button layoutX="1.0" layoutY="76.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#action_menu_20open" prefHeight="75.0" prefWidth="300.0" styleClass="menu_bar_content_item" text="England not ready for impact" textAlignment="JUSTIFY" wrapText="true" />
+                              <Button layoutX="1.0" layoutY="151.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#action_menu_21open" prefHeight="75.0" prefWidth="300.0" styleClass="menu_bar_content_item" text="Swiss court case ties human rights to climate change" textAlignment="JUSTIFY" wrapText="true" />
+                              <Button layoutX="1.0" layoutY="226.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#action_menu_22open" prefHeight="75.0" prefWidth="300.0" styleClass="menu_bar_content_item" text="New cars sold in EU must be zero-emission from 2035" textAlignment="JUSTIFY" wrapText="true" />
+                              <Button layoutX="1.0" layoutY="301.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#action_menu_23open" prefHeight="75.0" prefWidth="300.0" styleClass="menu_bar_content_item" text="BBC Sport research shows 81 flights from 100 games" textAlignment="JUSTIFY" wrapText="true" />
+                              <Button layoutX="1.0" layoutY="376.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#action_menu_24open" prefHeight="75.0" prefWidth="300.0" styleClass="menu_bar_content_item" text="UN warns against 'vampiric' global water use" textAlignment="JUSTIFY" wrapText="true" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="100.0" prefWidth="500.0">
+                     <children>
+                        <Button layoutX="30.0" layoutY="35.0" mnemonicParsing="false" onAction="#action_openContactPage_btn" prefHeight="50.0" prefWidth="440.0" styleClass="contact_us" text="CONTACT US" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </VBox>
+            <ImageView fitHeight="50.0" fitWidth="31.0" layoutX="14.0" layoutY="24.0" onMouseClicked="#action_toOpenMenuBar" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/to_open_menu.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="id_helloPage" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="900.0" prefWidth="1400.0" style="-fx-background-color: #564557;" visible="false">
+         <children>
+            <ImageView fitHeight="174.0" fitWidth="174.0" layoutX="613.0" layoutY="276.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/icon_logo.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="534.0" layoutY="450.0" styleClass="pre-view_text" stylesheets="@style/style.css" text="NewMENews" />
+            <Label layoutX="634.0" layoutY="587.0" prefHeight="36.0" prefWidth="137.0" text="Hi World! =)">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="id_helloPage_progressBar" fitHeight="150.0" fitWidth="140.0" layoutX="633.0" layoutY="639.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/12.gif" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="id_contactPage" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="900.0" prefWidth="1400.0" styleClass="contact_page" stylesheets="@style/style.css" visible="false">
+         <children>
+            <Pane layoutX="400.0" layoutY="250.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #564557;">
+               <children>
+                  <ImageView fitHeight="270.0" fitWidth="240.0" layoutX="26.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/itsme.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="300.0" layoutY="102.0" styleClass="text_in_contactUs" text="NAME: Meyirman" />
+                  <Label layoutX="300.0" layoutY="141.0" styleClass="text_in_contactUs" text="SURNAME: Sarsenbay" />
+                  <Label layoutX="300.0" layoutY="181.0" styleClass="text_in_contactUs" text="USERNAME: creator" />
+                  <Label layoutX="300.0" layoutY="214.0" styleClass="text_in_contactUs" text="EMAIL: meyir@com" />
+                  <Label layoutX="301.0" layoutY="252.0" styleClass="text_in_contactUs" text="PHONE: +77777777777" />
+                  <Label layoutX="127.0" layoutY="14.0" styleClass="contact_us_title" text="CONTACT US" />
+                  <ImageView fitHeight="21.0" fitWidth="150.0" layoutX="565.0" layoutY="14.0" onMouseClicked="#action_con_closeContactPage_btn" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/close.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="id_page2" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="900.0" prefWidth="1400.0" visible="false">
+         <children>
+            <AnchorPane layoutX="300.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="282.0" prefWidth="900.0">
+               <children>
+                  <Label prefHeight="80.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="Probe into meat 'falsely labelled' as British at supermarkets" textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraBold" size="30.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="300.0" fitWidth="774.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@content_news/2.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutY="401.0" prefHeight="423.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="A criminal investigation is under way into allegations that a rogue meat supplier falsely labelled huge quantities of foreign pork as British.The Food Standards Agency is also looking into claims that the firm also mixed rotten pork with fresh meat.It is understood the meat may have ended up in many UK supermarkets.Farmers Weekly, which first reported the story said that the company was passing off industrial scale quantities of foreign pork as British.It said this may have been in products up until at least 2020 and could have been included in many items such as ready meals, quiches and sandwiches sold in a number of UK supermarkets, with schools, hospitals, care homes and prisons also indirectly supplied.It is understood that the Food Standards Agency's National Food Crime Unit (NFCU) started its initial investigation into the firm in September 2021.Andrew Quinn, deputy head of the Food Standards Agency's NFCU, said the unit was &quot;carrying out a criminal investigation into how one supplier allegedly provided products labelled as British when they were in fact sourced from South America and Europe&quot;.&quot;The initial retailer was notified at the same time the NFCU acted against the food business suspected of the fraud,&quot; he added.&quot;We are looking into all new lines of enquiry with our partner organisations, including any potential food hygiene breaches, and acting where necessary to protect public health.&quot;At a time when cost pressures and other challenges mean the risks of food fraud might be increasing, it is vital that everyone involved in the food chain works to ensure that food is safe and what it says it is.&quot;Retail industry lobby group, the British Retail Consortium said it could not comment on an ongoing investigation.&quot;Whilst we cannot comment on an ongoing investigation, retailers will support the FSA with its investigation into the individual supplier in question,&quot; it added.The Food Standards Agency is not naming the business involved whilst it continues to gather evidence and so as not to prejudice any possible future action by the courts.Based on the investigation so far, the FSA said &quot;There is no indication that food is unsafe or there is an increased risk&quot; to consumers.&quot;Criminal investigations take time and need to be done with due process and fairness. The FSA will work tirelessly on behalf of consumers to ensure that this criminal investigation is done to the highest possible standards,&quot; Emily Miles, the chief executive of the Food Standards Agency added." textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraLight" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="150.0" fitWidth="30.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#go_to_back" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/go-back-30.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="id_page1" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="900.0" prefWidth="1400.0" visible="false">
+         <children>
+            <AnchorPane layoutX="300.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="282.0" prefWidth="900.0">
+               <children>
+                  <Label prefHeight="80.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="Southern Water permit breaches up 153% in one year" textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraBold" size="30.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="300.0" fitWidth="774.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@content_news/1.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutY="401.0" prefHeight="316.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="The number of times Southern Water breached its storm overflow permits has increased by 153% in the last year, new data has revealed.The company registered 195 breaches in 2022, up from 77 the previous year.Among the nine water companies across England, Southern Water recorded the highest number of permit breaches last year.The firm disputed the figures and claimed that there had been a drop in overall storm overflow activity.Last year, Southern Water recorded 195 breaches, which included 67 overflow conditions, according to new data.In comparison, Thames Water recorded 51 breaches and 33 overflows in 2022, while South West Water recorded 42 and 11 respectively.'Still isn't good enough'However, a Southern Water spokeswoman said the data was not an official record of pollution incidents.&quot;Based on official Environment Agency data for 2022, we have actually seen a fall in overall storm overflow activity and are already exceeding the government's expectations for spills per overflow,&quot; she said.&quot;However, we know this still isn't good enough and are working extremely hard to drive down storm overflows, investing significantly to optimise our infrastructure and using innovative nature-based and engineering solutions, to slow the flow of surface and groundwater into our sewers.&quot;Industry body Water UK said breaches of overflow permits were &quot;rare&quot;, and that figures suggest they have reduced by almost 60% nationwide since 2020.&quot;Although permit breaches can occur for a variety of reasons, and are not necessarily linked to pollution, companies are determined to continue reducing their occurrence,&quot; a spokesperson said.&quot;Ultimately though, the transformation of rivers will require hard work, innovation and investment - with £56bn already planned for storm overflows alone." textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraLight" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="150.0" fitWidth="30.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#go_to_back" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/go-back-30.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="id_page3" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="900.0" prefWidth="1400.0" visible="false">
+         <children>
+            <AnchorPane layoutX="300.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="282.0" prefWidth="900.0">
+               <children>
+                  <Label prefHeight="80.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="Heanor food factory staff made redundant after arrests" textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraBold" size="30.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="300.0" fitWidth="774.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@content_news/3.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutY="401.0" prefHeight="280.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="An MP has confirmed staff working at a food factory, suspected of supplying processed meat wrongly labelled as British, have been made redundant.Derbyshire Police and the National Food Crime Unit (NFCU) made an unannounced visit to Loscoe Chilled Foods, near Heanor, on 22 March.Three people were arrested and have now been released under investigation.Amber Valley MP Nigel Mills said he had seen a letter confirming the &quot;terrible news&quot; for employees.Mr Mills said the letter was sent to staff confirming they were being made redundant effective last Friday.He said: &quot;The confirmation of the closure, with all staff being made redundant, is terrible news for employees involved and a blow for the town.&quot;I've spoken to other local employers who are keen to take people on.&quot;I would urge everyone affected to contact the Job Centre to ensure they get any help they're entitled to and for support in finding a new role.&quot;The NFCU said it was investigating how the supermarket Booths was supplied with products labelled as British, that were actually sourced from South America and Europe.The products were pre-packed sliced meats and deli products.There is no suggestion that any of the company's meat products were unsafe to consume.Booths has previously said it was made aware of the potential issues in 2021.The retailer said all relevant products were removed from sale and it ceased trading with the supplier as soon as it was made aware of the potential issues.It has emphasised that it is not under investigation.The BBC has attempted to contact Loscoe Chilled Foods for comment" textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraLight" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="150.0" fitWidth="30.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#go_to_back" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/go-back-30.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="id_page4" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="900.0" prefWidth="1400.0" visible="false">
+         <children>
+            <AnchorPane layoutX="300.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="282.0" prefWidth="900.0">
+               <children>
+                  <Label prefHeight="80.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="Carbon capture: What is it and how does it fight climate change?" textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraBold" size="30.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="300.0" fitWidth="774.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@content_news/4.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutY="401.0" prefHeight="174.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="The UK government has announced that the first sites in the UK to capture greenhouse gases will be in Teesside.The carbon capture plants are designed to prevent carbon dioxide (CO2) from industrial processes and power stations being released into the atmosphere.The announcement was part of the government's new Net Zero Strategy and aims to move the UK closer to meeting its legally-binding carbon commitments.New UK plan to reach net zero goal faces criticismIs the UK on track to meet its climate targets?How does carbon capture work?Burning fossil fuels like oil, gas and coal to generate electricity emits CO2, which is the main driver of climate change.The carbon capture process stops most of the CO2 produced from being released, and either re-uses it or stores it underground.The UK government wants a new power station where carbon dioxide is captured and stored under the North Sea - either in old oil and gas reservoirs, or permeable rocks known as saline aquifers." textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraLight" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="150.0" fitWidth="30.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#go_to_back" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/go-back-30.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="id_page5" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="900.0" prefWidth="1400.0" visible="false">
+         <children>
+            <AnchorPane layoutX="300.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="282.0" prefWidth="900.0">
+               <children>
+                  <Label prefHeight="80.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="New UK plan to reach net zero goal faces criticism" textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraBold" size="30.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="300.0" fitWidth="774.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@content_news/5.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutY="401.0" prefHeight="423.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="The government has unveiled a new net zero plan which has been met with intense criticism from experts and environmental groups.The document was drawn up after the High Court ruled the government's existing plans were not sufficient to meet its climate targets.A central plank of the strategy is to store CO2 under the North Sea.But scientists say even this plan will not move the UK closer towards meeting its legally-binding carbon commitments.Ministers say it also aims to lower people's energy bills, although this will not be achieved in the short term.What is carbon capture and can it fight climate change?Is the UK on track to meet its climate targets?What does net zero mean?The government was forced to publish this &quot;Powering up Britain&quot; strategy after the High Court judged last July that its current plan was not detailed enough to show how the UK would meet its goal to reduce its greenhouse gas emissions to net zero by 2050.Academics and green groups are unconvinced it will make enough difference.Dr Chris Jones, an expert in climate change at the University of Manchester, said: &quot;This latest government energy strategy is a weak response to the UK's zero carbon energy needs.&quot;The regressive measures on fossil fuels won't make any real impact on our bills and energy security, but they are enough to downgrade the UK's role as a leader in tackling climate change.&quot;Friends of the Earth - who were part of the team who brought the legal case against the last plan - said they may have to go back to the High Court.&quot;With these policies looking dangerously lacklustre and lacking on climate action, we are poised to act if ministers have fallen short once again,&quot; said Mike Childs, head of policy at campaign group Friends of the Earth.Prime Minister Rishi Sunak said people should be &quot;really proud of the UK's track record&quot; on decarbonisation amid criticism of his government's net zero plan.Speaking to broadcasters on a visit to the UK Atomic Energy Authority in Oxfordshire, Mr Sunak said the UK had &quot;decarbonised faster than any other major economy, our carbon emissions have been reduced by over 40%&quot;.One of the key parts of the new strategy is announcing the UK's first carbon capture sites in Teesside. These sites take carbon dioxide (CO2) produced during the burning of fossil fuels like gas, and store them in deep caverns under the North Sea.It is hoped this could remove up to 50% of the emissions from the country's industry." textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraLight" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="150.0" fitWidth="30.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#go_to_back" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/go-back-30.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="id_page6" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="900.0" prefWidth="1400.0" visible="false">
+         <children>
+            <AnchorPane layoutX="300.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="282.0" prefWidth="900.0">
+               <children>
+                  <Label prefHeight="80.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="Devon hydrogen plant shortlisted for government support" textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraBold" size="30.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="300.0" fitWidth="774.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@content_news/6.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutY="401.0" prefHeight="174.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="A hydrogen production project in Devon is one of 20 that could get financial support from the government.Carlton Power plans to produce and store hydrogen produced by renewable electricity at Langage Energy Park, near Plymouth.Langage Green Hydrogen is part of the government's strategy Powering Up Britain, which plans to cut greenhouse gases by investing in renewable energy.Carlton Power said it was aiming to start commercial operation in 2025.The plant is on a shortlist of 20 projects that could get financial support through the government's Hydrogen Business Model.Hydrogen would be produced by solar and wind power, said Carlton, with hydrogen offered to local firms instead of natural gas or other energy sources.Carlton said the site, which had planning permission, would be included in the Plymouth and South Devon Freeport area which offers tax advantages to businesses." textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraLight" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="150.0" fitWidth="30.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#go_to_back" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/go-back-30.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="id_page7" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="900.0" prefWidth="1400.0" visible="false">
+         <children>
+            <AnchorPane layoutX="300.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="282.0" prefWidth="900.0">
+               <children>
+                  <Label prefHeight="80.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="What is happening to house prices, and could there be a crash?" textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraBold" size="30.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="300.0" fitWidth="774.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@content_news/7.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutY="401.0" prefHeight="174.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="House prices have fallen in recent months, as growing interest rates have made mortgages more expensive, and high inflation has reduced people's spending power.But mortgage interest rates may be stabilising. How might this affect house prices?What is happening to house prices around the UK?Prices rose steeply - by about 25% - across most of the UK from the start of 2020 until Autumn 2022.But they have fallen by about 4% from that peak according to February's figures from Nationwide.Those recent changes build on very different patterns of growth over the last 15 years.Northern Ireland's house prices have still have not returned to the levels seen before 2008 global financial crisis.In contrast, London and the South East saw prices recover quickly up until 2015, then saw less growth during the race-for-space period of the pandemic, which saw many people relocate to cheaper areas." textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraLight" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="150.0" fitWidth="30.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#go_to_back" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/go-back-30.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="id_page8" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="900.0" prefWidth="1400.0" visible="false">
+         <children>
+            <AnchorPane layoutX="300.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="282.0" prefWidth="900.0">
+               <children>
+                  <Label prefHeight="80.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="Elon Musk among experts urging a halt to AI training" textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraBold" size="30.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="300.0" fitWidth="774.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@content_news/8.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutY="401.0" prefHeight="203.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="Key figures in artificial intelligence want training of powerful AI systems to be suspended amid fears of a threat to humanity.They have signed an open letter warning of potential risks, and say the race to develop AI systems is out of control.Twitter chief Elon Musk is among those who want training of AIs above a certain capacity to be halted for at least six months.Apple co-founder Steve Wozniak and some researchers at DeepMind also signed.OpenAI, the company behind ChatGPT, recently released GPT-4 - a state-of-the-art technology, which has impressed observers with its ability to do tasks such as answering questions about objects in images.The letter, from Future of Life Institute and signed by the luminaries, wants development to be halted temporarily at that level, warning in their letter of the risks future, more advanced systems might pose.&quot;AI systems with human-competitive intelligence can pose profound risks to society and humanity,&quot; it says.The Future of Life Institute is a not-for-profit organisation which says its mission is to &quot;steer transformative technologies away from extreme, large-scale risks and towards benefiting life&quot;." textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraLight" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="150.0" fitWidth="30.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#go_to_back" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/go-back-30.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="id_page9" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="900.0" prefWidth="1400.0" visible="false">
+         <children>
+            <AnchorPane layoutX="300.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="282.0" prefWidth="900.0">
+               <children>
+                  <Label prefHeight="80.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="Warning UK car industry under threat without help" textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraBold" size="30.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="300.0" fitWidth="774.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@content_news/9.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutY="401.0" prefHeight="445.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="The UK's car sector could disappear unless the government follows the US and EU in helping with the switch to electric, an industry veteran says.It was &quot;probable&quot; car firms would leave the UK without a huge subsidy package similar to the billions in support the US is providing, Andy Palmer said.The sector is facing the &quot;last throw of the dice&quot;, Mr Palmer added, who has had senior jobs at Nissan and Aston Martin.The chancellor has said the UK will not go &quot;toe-to-toe&quot; with the US and EU.Jeremy Hunt told the Times newspaper that the UK's approach to attract investment would be &quot;better&quot;.Mr Palmer is now chairman of electric battery firm InoBat, but has previously worked as chief operating officer at Nissan and is a former chief executive of Aston Martin.He told the BBC's Today programme that the UK was &quot;managing decline&quot; in its car-making industry, but had a &quot;last opportunity&quot; to boost the sector and jobs in the move to electric vehicles.However, he warned huge subsidy packages were needed for UK-based companies, similar to such schemes announced in the US and being consulted on currently by the EU.If such schemes are not created, Mr Palmer said, it was &quot;not only possible, it's probable&quot; that car manufacturers currently based in the UK would leave and go elsewhere.&quot;You are into a period of either you compete... or you manage the decline of the British industry down to fundamentally next to zero,&quot; he said.&quot;We have the last throw of the dice in order to bring back some part of that industry, if we don't then we have to look for alternative employments for the 820,000 people.&quot;New UK plan to reach net zero goal faces criticismFive questions about electric vehicles answeredThe warning comes after the US announced the Inflation Reduction Act (IRA), which offers billions of dollars in subsidies and tax credits to US businesses producing greener technologies, including electric vehicles, renewable electricity and sustainable aviation fuel.The EU has responded with plans for a Net Zero Industry Act to increase its subsidies for green industry.The UK government told the BBC officials were engaging with the US administration &quot;to address serious concerns&quot; about the IRA, as well as talking to other countries across the world &quot;who are similarly affected&quot;.The government said it would &quot;continue to robustly defend the interests of UK industry&quot;.The latest comments come after Mr Hunt said the UK would not go toe-to-toe with its allies and get involved what he called &quot;some distortive global subsidy race&quot;.&quot;Our approach will be different - and better,&quot; Mr Hunt said. &quot;With the threat of protectionism creeping its way back into the world economy, the long-term solution is not subsidy but security.&quot;" textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraLight" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="150.0" fitWidth="30.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#go_to_back" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/go-back-30.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="id_page10" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="900.0" prefWidth="1400.0" visible="false">
+         <children>
+            <AnchorPane layoutX="300.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="282.0" prefWidth="900.0">
+               <children>
+                  <Label prefHeight="80.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="Mortgage lending hits lowest level since 2016 excluding pandemic" textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraBold" size="30.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="300.0" fitWidth="774.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@content_news/10.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutY="401.0" prefHeight="400.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="Mortgage lending in February fell to its lowest level since 2016, excluding the pandemic, the Bank of England has said.But the number of mortgages approved by lenders rose slightly, suggesting the slowdown may be stabilising.It comes as higher borrowing costs make buying property less affordable.Homeowners borrowed £700m in February, down from £2bn in January, the Bank said. That is the lowest level since April 2016 apart from the Covid crisis.However, mortgage approvals rose to their highest level for three months, climbing to 43,500 in February from 39,600 in January.Karen Noye, a mortgage expert at Quilter, suggested people were still in &quot;wait-and-see&quot; mode as borrowing costs remained high.But she said the rebound in approvals meant &quot;green shoots might be appearing&quot; in the housing market.&quot;It's clear that home-buyers are cautiously returning back to the market in early 2023 after the huge shocks at the back end of last year made many put their house hunts on ice. How this all feeds through to house prices is yet to be seen.&quot;Mortgage rates began to rise last year as interest rates climbed, but they spiked in September after Liz Truss's mini-budget caused panic on financial markets.What happens if I can't afford to pay my mortgage?Rates have stabilised but remain much higher than they were a few years ago, squeezing people's purchasing power.It has fed through to house prices, which in the year to February saw their biggest annual fall in more than ten years, according to Nationwide.Nevertheless, the Bank of England forecast that fewer households were likely to struggle to afford mortgage payments this year than previously forecast due to falling energy prices.In December it warned 670,000 households could face difficulties.Alice Haine, personal finance analyst at Bestinvest, said buyers were going for smaller homes to reflect their budgets as the &quot;cost-of-living crunch is still very real&quot;.&quot;The cost pressures mean buyers simply cannot afford the same properties they could a year ago and must consider smaller or cheaper homes if they want to push ahead with a purchase at this time,&quot; she said.Advice to pension fundsThe mini-budget last autumn sparked market turmoil, with the Bank of England having to step in to stabilise pension funds." textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraLight" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="150.0" fitWidth="30.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#go_to_back" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/go-back-30.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="id_page11" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="900.0" prefWidth="1400.0" visible="false">
+         <children>
+            <AnchorPane layoutX="300.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="282.0" prefWidth="900.0">
+               <children>
+                  <Label prefHeight="80.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="Next says prices to rise by less than expected this year" textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraBold" size="30.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="300.0" fitWidth="774.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@content_news/11.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutY="401.0" prefHeight="325.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="High Street retailer Next has said it will put up its prices by less than expected this year.It said it now expected prices to rise by 7% in the spring and summer of 2023, and 3% in the autumn and winter - slightly less than the increases it warned of in January.It said shipping costs were falling and suppliers were charging better rates.It came as Next reported a 5.7% rise in pre-tax profits to £870.4m for the year to January.On Tuesday, the retailer also announced it would buy the Cath Kidston fashion brand for £8.5m, but not its shops.Next has about 500 stores and trades online. It is often considered a good indicator of how the British High Street is doing.The retailer had already put up its prices in 2022, blaming rising production costs and a weaker pound.And in January it said prices would have to rise again by 8% this spring and summer, and by a further 6% this autumn.But on Wednesday, Next boss Simon Wolfson said he expected the UK to be &quot;past peak inflation&quot; towards the end of the year.Why are prices rising?UK inflation rate calculator: How much are prices rising for you?Despite the strong results, Next is forecasting 2023 will be bumpy, with sales and profits falling as energy and wage costs remain high.Most businesses have been putting up prices, with grocers Aldi and Lidl hiking them recently.Last year bakery chain Greggs, retailer Marks &amp; Spencer and furniture business Dunelm also announced price increases.The Bank of England expects overall inflation - the rate at which prices rise - to fall to under 3% by the end of the year, as energy and food costs come down.But there was a surprise jump in inflation to 10.4% in the year to February from 10.1% in January.The Bank of England has put up interest rates 11 times since December 2021 to try to control rising prices.And Governor Andrew Bailey has urged businesses not to put up prices faster than inflation, warning it would drive up the cost of living even further." textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraLight" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="150.0" fitWidth="30.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#go_to_back" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/go-back-30.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="id_page12" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="900.0" prefWidth="1400.0" visible="false">
+         <children>
+            <AnchorPane layoutX="300.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="282.0" prefWidth="900.0">
+               <children>
+                  <Label prefHeight="80.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="Adidas backtracks on Black Lives Matter design opposition" textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraBold" size="30.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="300.0" fitWidth="774.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@content_news/12.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutY="401.0" prefHeight="300.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="Adidas says it is withdrawing a request to the US Trademark Office to reject a Black Lives Matter (BLM) application for a trademark featuring three parallel stripes.The sportwear giant did not give a reason for the reversal.On Monday, Adidas said the Black Lives Matter Global Network Foundation design would create confusion with its own famous three-stripe mark.It added that it has been using its logo for more than 70 years.&quot;Adidas will withdraw its opposition to the Black Lives Matter Global Network Foundation's trademark application as soon as possible,&quot; a spokesperson for the German company said in a statement emailed to the BBC on Wednesday.The company declined to make any further comment on the decision.Black Lives Matter Global Network Foundation is the most prominent entity in the decentralised BLM movement.The group applied for a US trademark in November 2020 for a yellow three-stripe design to use on merchandise including clothing and bags.In a notice of opposition submitted to the trademark office, Adidas said the proposed design &quot;incorporates three stripes in a manner that is confusingly similar to the Three-Stripe Mark in appearance and overall commercial impression&quot;.The company added that consumers who are familiar with its goods and services &quot;are likely to assume&quot; that those offered under the applicant's mark &quot;originate from the same source, or that they are affiliated, connected, or associated with or sponsored by Adidas&quot;.The US Patent and Trademark Office gave Black Lives Matter Global Network Foundation until 6 May to respond to the challenge.Black Lives Matter Global Network Foundation did not immediately respond to a BBC request for comment." textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraLight" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="150.0" fitWidth="30.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#go_to_back" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/go-back-30.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="id_page13" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="900.0" prefWidth="1400.0" visible="false">
+         <children>
+            <AnchorPane layoutX="300.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="282.0" prefWidth="900.0">
+               <children>
+                  <Label prefHeight="80.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="Google: India tribunal upholds $160m fine on company" textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraBold" size="30.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="300.0" fitWidth="774.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@content_news/13.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutY="401.0" prefHeight="316.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="An Indian appeals court has upheld a $160m fine imposed on Google by the country's antitrust regulator in a case related to Android's market dominance.The National Company Law Appellate Tribunal (NCLAT) said the Competition Commission of India (CCI) findings were correct and Google was liable to pay the fine.But it set aside four of 10 antitrust directives imposed on the firm.More than 95% of Indian smartphones use the Android system.In October, the CCI accused Google of exploiting its dominant position and imposed the fine for &quot;unfair&quot; business practices.It also asked Google to make several changes to the Android ecosystem. This included not forcing manufacturers to pre-install the entire suite of Google apps and allowing users to choose their default search engine.The Android-related inquiry was started in 2019, following complaints by consumers of Android smartphones. The case was similar to the one Google faced in Europe, where regulators imposed a $5bn fine on the company, saying it used its Android operating system to gain unfair advantage in the market.Google challenged the fine and the directives in India's Supreme Court, saying &quot;no other jurisdiction has ever asked for such far-reaching changes&quot;.It argued that the changes would force the company to alter arrangements with more than 1,100 device manufacturers and thousands of app developers.The top court, however, refused to block the CCI directives and said that a lower court could continue hearing the appeal.In January, Google agreed to co-operate with the watchdog and announced a series of changes to its Android system in India.But the ruling by NCLAT means that the tech giant can stop users from removing its pre-installed apps from their phones.Google can also continue to impose curbs on users downloading apps without using its app store and is free to block third-party app stores from its Play Store." textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraLight" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="150.0" fitWidth="30.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#go_to_back" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/go-back-30.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="id_page14" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="900.0" prefWidth="1400.0" visible="false">
+         <children>
+            <AnchorPane layoutX="300.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="282.0" prefWidth="900.0">
+               <children>
+                  <Label prefHeight="80.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="AI could replace equivalent of 300 million jobs - report" textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraBold" size="30.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="300.0" fitWidth="774.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@content_news/14.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutY="401.0" prefHeight="343.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="Artificial intelligence (AI) could replace the equivalent of 300 million full-time jobs, a report by investment bank Goldman Sachs says.It could replace a quarter of work tasks in the US and Europe but may also mean new jobs and a productivity boom.And it could eventually increase the total annual value of goods and services produced globally by 7%.Generative AI, able to create content indistinguishable from human work, is &quot;a major advancement&quot;, the report says.Employment prospectsThe government is keen to promote investment in AI in the UK, which it says will &quot;ultimately drive productivity across the economy&quot;, and has tried to reassure the public about its impact.&quot;We want to make sure that AI is complementing the way we work in the UK, not disrupting it - making our jobs better, rather than taking them away,&quot; Technology Secretary Michelle Donelan told the Sun.The report notes AI's impact will vary across different sectors - 46% of tasks in administrative and 44% in legal professions could be automated but only 6% in construction 4% in maintenance, it says.BBC News has previously reported some artists' concerns AI image generators could harm their employment prospects.'Lower wages'&quot;The only thing I am sure of is that there is no way of knowing how many jobs will be replaced by generative AI,&quot; Carl Benedikt Frey, future of-work director at the Oxford Martin School, Oxford University, told BBC News.&quot;What ChatGPT does, for example, is allow more people with average writing skills to produce essays and articles.&quot;Journalists will therefore face more competition, which would drive down wages, unless we see a very significant increase in the demand for such work.&quot;Consider the introduction of GPS technology and platforms like Uber. Suddenly, knowing all the streets in London had much less value - and so incumbent drivers experienced large wage cuts in response, of around 10% according to our research.&quot;The result was lower wages, not fewer drivers.&quot;Over the next few years, generative AI is likely to have similar effects on a broader set of creative tasks&quot;." textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraLight" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="150.0" fitWidth="30.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#go_to_back" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/go-back-30.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="id_page15" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="900.0" prefWidth="1400.0" visible="false">
+         <children>
+            <AnchorPane layoutX="300.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="282.0" prefWidth="900.0">
+               <children>
+                  <Label prefHeight="80.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="Alibaba: China tech giant shares jump after breakup plan announced" textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraBold" size="30.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="300.0" fitWidth="774.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@content_news/15.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutY="401.0" prefHeight="423.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="Shares of Chinese technology giant Alibaba have jumped after it announced a plan to break up the company.The firm says five of the six units created by the move will explore raising fresh funding and initial public offering (IPO) options.Alibaba shares gained more than 14% in New York on Tuesday and were more than 13% higher in Hong Kong on Wednesday.Its US-listed shares have fallen by almost 70% since 2020 on concerns over Beijing's crackdown on the tech sector.The move comes after reports that Alibaba founder Jack Ma, who has rarely been seen in public in the last three years, resurfaced in China this week after a long absence.Alibaba said the decision to split up the business is the biggest restructuring in its 24-year history.The units will have their own chief executives and boards of directors. They will be allowed to raise capital and seek stock market listings, except for the online retail platform Taobao Tmall Commerce Group, which will remain wholly owned by Alibaba.In filings to the US Securities and Exchange Commission and the Hong Kong Stock Exchange, Alibaba said the units will &quot;capture opportunities in their respective markets and industries, thereby unlocking the value of Alibaba Group's respective businesses&quot;.&quot;The market is the best litmus test, and each business group and company can pursue independent fundraising and IPOs when they are ready,&quot; chief executive Daniel Zhang said in a letter to staff.What exactly is Alibaba?Why do Chinese billionaires keep vanishing?China technology analyst Rui Ma told the BBC that investors saw value in the restructuring because Alibaba's business units will be able to grow at their own pace.She added that each unit will also be more streamlined and &quot;less likely to be subject to antitrust violations&quot;.Alibaba's restructuring comes after years of tough regulation for Chinese technology firms, said Scott Kessler, global sector lead for technology, media and telecommunications at investment research firm Third Bridge.&quot;Over the past few months, the government has been less harsh on big technology companies. People are wondering if this could be the beginning of a period where the government shifts from being almost an adversary to companies, to actually supporting them,&quot; he added.Mr Ma, who founded Alibaba, recently returned to China after more than a year overseas, according to a report in the Alibaba-owned South China Morning Post newspaper this week.He met staff and toured classrooms at the Yungu School in Hangzhou, the city in which Alibaba is headquartered, the newspaper said." textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraLight" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="150.0" fitWidth="30.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#go_to_back" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/go-back-30.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="id_page16" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="900.0" prefWidth="1400.0" visible="false">
+         <children>
+            <AnchorPane layoutX="300.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="282.0" prefWidth="900.0">
+               <children>
+                  <Label prefHeight="80.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="Clearview AI used nearly 1m times by US police, it tells the BBC" textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraBold" size="30.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="300.0" fitWidth="774.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@content_news/16.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutY="401.0" prefHeight="203.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="Facial recognition firm Clearview has run nearly a million searches for US police, its founder has told the BBC.CEO Hoan Ton-That also revealed Clearview now has 30bn images scraped from platforms such as Facebook, taken without users' permissions.The company has been repeatedly fined millions of dollars in Europe and Australia for breaches of privacy.Critics argue that the police's use of Clearview puts everyone into a &quot;perpetual police line-up&quot;.&quot;Whenever they have a photo of a suspect, they will compare it to your face,&quot; says Matthew Guariglia from the Electronic Frontier Foundation says. &quot;It's far too invasive.&quot;The figure of a million searches comes from Clearview and has not been confirmed by police. But in a rare admission, Miami Police has confirmed to the BBC it uses this software for every type of crime.Clearview's system allows a law enforcement customer to upload a photo of a face and find matches in a database of billions of images it has collected.It then provides links to where matching images appear online. It is considered one of the most powerful and accurate facial recognition companies in the world." textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraLight" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="150.0" fitWidth="30.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#go_to_back" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/go-back-30.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="id_page17" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="900.0" prefWidth="1400.0" visible="false">
+         <children>
+            <AnchorPane layoutX="300.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="282.0" prefWidth="900.0">
+               <children>
+                  <Label prefHeight="80.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="Elon Musk: Twitter boss announces blue tick shake-up" textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraBold" size="30.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="300.0" fitWidth="774.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@content_news/17.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutY="401.0" prefHeight="174.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="Twitter boss Elon Musk has announced a shake-up of the social media platform's paid Twitter Blue feature.From 15 April only verified subscribers will have posts recommended to other users and be allowed to vote in polls.Under the policy, posts from non-paying accounts will not be included in the &quot;For you&quot; stream of recommended tweets.Last week, the firm said it would remove the verified status of some &quot;legacy&quot; accounts, which date from before Mr Musk bought the firm.Users currently pay $7 (£5.70) a month for blue-tick verification, which also allows access to additional features.Mr Musk said the changes were &quot;the only realistic way to address advanced AI bot swarms taking over. It is otherwise a hopeless losing battle.&quot;&quot;Voting in polls will require verification for same reason,&quot; he added.In an earlier post, Mr Musk said paid verification significantly increases the cost of using bots and makes it easier to identify them." textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraLight" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="150.0" fitWidth="30.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#go_to_back" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/go-back-30.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="id_page18" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="900.0" prefWidth="1400.0" visible="false">
+         <children>
+            <AnchorPane layoutX="300.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="282.0" prefWidth="900.0">
+               <children>
+                  <Label prefHeight="80.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="Why fun apps are banned on French officials' phones" textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraBold" size="30.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="300.0" fitWidth="774.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@content_news/18.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutY="401.0" prefHeight="343.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="Governments and institutions around the world have been banning TikTok from officials' phones and devices, over the past few months.The Netherlands and Norway have joined the list of countries banning the video-sharing app, owned by Chinese company ByteDance, from government-issued devices.And despite TikTok's insistence it is independently run and shares no users' data with the Chinese government, France has become the latest country to restrict officials' access to it.But at the same time, it has also become the first country to do the same for all &quot;recreational&quot; apps - including:NetflixInstagramCandy CrushTwitterThe ban, monitored by France's cyber-security agency, will affect about 2.5 million civil servants.&quot;Recreational applications do not deliver sufficient levels of cyber-security and data protection to be deployed on administration's digital tools,&quot; Civil Service Minister Stanislas Guerini said.&quot;These applications may therefore constitute a risk to the data protection of these administrations and their public officials.&quot; Although, exceptions could be granted for &quot;institutional communications&quot; purposes.So it looks like France, unlike the rest of the West, is viewing Chinese and American technology companies in a similar way. Although, it is not the first instance of technology tension between the US and France.In 2019, France approved a digital-services tax despite threats of retaliation by the US, who argued it unfairly targeted American technology giants such as Google and Facebook.And since 2018, France has been vocally opposed to the US Cloud Act, which gives American law-enforcement authorities the power to request data stored by most major cloud providers, even if it is outside the US.France has had a prominent voice in the Gaia-X project - set up to:address the conflict between the US Cloud Act and the EU General Data Protection Regulation (GDPR)set European cloud standardsensure customers' data is stored and processed in Europe, &quot;immune&quot; from non-European laws" textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraLight" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="150.0" fitWidth="30.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#go_to_back" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/go-back-30.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="id_page19" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="900.0" prefWidth="1400.0" visible="false">
+         <children>
+            <AnchorPane layoutX="300.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="282.0" prefWidth="900.0">
+               <children>
+                  <Label prefHeight="80.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="Climate change: World's top court to weigh in" textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraBold" size="30.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="300.0" fitWidth="774.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@content_news/19.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutY="401.0" prefHeight="230.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="The world's top court will for the first time advise on countries' legal obligations to fight climate change, following a UN resolution on Wednesday.The International Court of Justice will now prepare an advisory opinion that could be cited in climate court cases.The motion came from Vanuatu, a low-lying Pacific island nation facing peril from rising sea levels.Vanuatu's Prime Minister Ishmael Kalsakau called it &quot;a win for climate justice of epic proportions&quot;.The motion, sponsored by more than 130 countries, was greeted with cheers.The idea for the legal opinion was originally proposed by law students in Fiji four years ago.It was then taken up by Vanuatu, a country with bitter experience of the impacts of rising temperatures.Earlier this year it , at an estimated cost in damages of roughly half the country's annual GDP.UN releases 'survival guide' to avert climate disasterThe Premier League's domestic flights dilemmaUN warns against 'vampiric' global water useThese experiences gave added weight to Vanuatu's UN resolution, seeking legal clarity on responsibilities for climate change.The country emphasised that it is not seeking the court's opinion to put in place new restrictions but to clarify existing obligations to prevent harm to the environment." textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraLight" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="150.0" fitWidth="30.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#go_to_back" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/go-back-30.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="id_page20" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="900.0" prefWidth="1400.0" visible="false">
+         <children>
+            <AnchorPane layoutX="300.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="282.0" prefWidth="900.0">
+               <children>
+                  <Label prefHeight="80.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="England not ready for impact" textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraBold" size="30.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="300.0" fitWidth="774.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@content_news/20.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutY="401.0" prefHeight="230.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="England is not ready for the unavoidable impacts of global warming, the government's advisers on climate change say in a new report.The Committee on Climate Change (CCC) said the government hasn't achieved any of its targets and needed a policy &quot;step change&quot; to avoid loss of life.The CCC reviews the government's adaptation plans - preparations to cope with the effects of global warming.The government said it would take the recommendations into account.Four ways climate change is affecting weatherIs the UK getting hotter?What will climate change look like near me?A really simple guide to climate changeThe committee, also known as the CCC, is an independent group of experts set up to provide the government with advice on the climate crisis.Baroness Brown, chairwoman of the CCC's sub-committee on adaptation, said that the government wasn't taking the issue seriously enough.&quot;The government's lack of urgency on climate resilience is in sharp contrast to the recent experience of this country,&quot; she said.Over the last couple of years, England has faced a series of extreme weather events, likely made worse by climate change.Last year was the warmest on record for the UK - temperatures broke 40C for the first time and more than 25,000 wildfires broke out." textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraLight" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="150.0" fitWidth="30.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#go_to_back" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/go-back-30.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="id_page21" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="900.0" prefWidth="1400.0" visible="false">
+         <children>
+            <AnchorPane layoutX="300.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="282.0" prefWidth="900.0">
+               <children>
+                  <Label prefHeight="80.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="Swiss court case ties human rights to climate change" textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraBold" size="30.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="300.0" fitWidth="774.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@content_news/21.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutY="401.0" prefHeight="423.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="More than 2,000 women are taking the Swiss government to court claiming its policy on climate change is violating their right to life and health.The case is the first time the European Court of Human Rights (ECHR) will hear a case on the impact of climate change on human rights.It follows six years of unsuccessful battles through the Swiss courts.Temperatures in Switzerland are rising faster than the global average and there are ever more frequent heatwaves.The Swiss women - who call themselves the Club of Climate Seniors and have an average age of 73 - say climate change is putting their human rights, their health and even their lives at risk. Their evidence to the court includes their medical records.They want the ECHR to order Switzerland to work harder at reducing greenhouse gas emissions.One of the campaigners, Elisabeth Stern, told the BBC: &quot;Due to climate change, we have more heatwaves and older women suffer more. They die more often during these heatwaves than they otherwise would.&quot;Some people say, why are you complaining, you're going to die anyway. But we don't want to die just because our Swiss government has not been successful in coming up with a decent climate policy.&quot;The European Climate and Health Observatory says that projected increases in average temperature are likely to have &quot;serious impacts on public health&quot; across Europe, particularly among elderly people.In the last 20 years, heat-related mortality in people older than 65 in Europe has increased by more than 30%, it says.The Swiss government does not deny that climate change can affect health - but says it cannot be tied specifically to older women's health.If the women are successful, the case could set a precedent for every one of the European court's 46 member states.World temperatures are rising because of human activity, and climate change now threatens every aspect of human life.Temperature rises must slow down if we want to avoid the worst consequences of climate change, according to climate scientists. They say global warming needs to be kept to 1.5C by 2100.According to the UN climate body, the IPCC, if global temperature rise cannot be kept within 1.5C, Europe will be vulnerable to flooding caused by extreme rainfall.Extreme temperatures can also increase the risk of wildfires - as seen in Europe last summer. France and Germany recorded about seven times more land burnt between January and the middle of July 2022, compared with the average." textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraLight" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="150.0" fitWidth="30.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#go_to_back" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/go-back-30.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="id_page22" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="900.0" prefWidth="1400.0" visible="false">
+         <children>
+            <AnchorPane layoutX="300.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="282.0" prefWidth="900.0">
+               <children>
+                  <Label prefHeight="80.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="New cars sold in EU must be zero-emission from 2035" textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraBold" size="30.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="300.0" fitWidth="774.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@content_news/22.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutY="401.0" prefHeight="369.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="Countries in the European Union have approved a landmark law that will ensure all new cars sold from 2035 must have zero emissions.Poland voted against the law, while Italy, Bulgaria and Romania abstained.The agreement was delayed for weeks after Germany called for an exemption for cars running on e-fuels.E-fuels are argued to be carbon neutral because they use captured CO2 emissions to balance out the CO2 released when the fuel is combusted in an engine.The new law had been expected to make it impossible to sell internal combustion engine cars in the EU from 2035.However, the exemption won by Germany will now help those with traditional vehicles - even though e-fuels are not yet produced at scale.The EU will say how sales of e-fuel-only cars can continue later this year.Passenger cars and vans are responsible for about 12% and 2.5% respectively of total EU emissions of CO2, the main greenhouse gas, according to the European Commission.Earlier this month the UN warned that the world was likely to miss a target for limiting the rise in global temperatures to 1.5C.Five things we've learned from UN climate reportThe new EU law will require all new cars sold to have zero CO2 emissions from 2035, and 55% lower CO2 emissions from 2030, compared to 2021 levels.Germany's late opposition came after EU countries and politicians had already agreed the 2035 phaseout and caused anger among some EU diplomats.&quot;As a matter of principle, we don't like this approach. We think it is not fair,&quot; Spanish energy minister Teresa Ribera said, adding that current assessments suggested e-fuels were too expensive to become widely used.Porsche and Ferrari are among the supporters of e-fuels, which they see as a way to avoid their vehicles being weighed down by heavy batteries.But other carmakers including Volkswagen, Mercedes-Benz and Ford will use electric vehicles to decarbonise.German transport minister Volker Wissing said Tuesday's agreement would &quot;open up important options for the population towards climate-neutral and affordable mobility&quot;.EU climate policy chief Frans Timmermans added: &quot;The direction of travel is clear: in 2035, new cars and vans must have zero emissions,&quot;" textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraLight" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="150.0" fitWidth="30.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#go_to_back" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/go-back-30.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="id_page23" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="900.0" prefWidth="1400.0" visible="false">
+         <children>
+            <AnchorPane layoutX="300.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="282.0" prefWidth="900.0">
+               <children>
+                  <Label prefHeight="80.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="BBC Sport research shows 81 flights from 100 games" textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraBold" size="30.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="300.0" fitWidth="774.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@content_news/23.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutY="401.0" prefHeight="264.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="BBC Sport research has found evidence of 81 individual short-haul domestic flights made by Premier League teams to and from 100 matches during a two-month sample period this year.Whether it's Trent Alexander-Arnold on a flight back from Newcastle to Liverpool, Chelsea's Ben Chilwell flying from London to Leicester or Nottingham Forest players on their way from East Midlands Airport to Blackpool, occasional social media posts have so far been the only insight to inform the debate around Premier League clubs flying small distances to matches instead of travelling by road or rail.Now, a study of 100 games played in the UK involving Premier League teams between 19 January and 19 March 2023 has given the first insight into the volume of the controversial journeys, some as short as 27 minutes.And for the first time the study also shows details of 'positioning' flights - where near-empty planes are flown to convenient airports, sometimes across the UK, in order to then transport players and staff to fixtures.The Sports Desk podcast: Should Premier League clubs stop flying to domestic games?The study suggests:81 individual domestic flights by Premier League clubs (including return journeys)Of those 81 flights, the breakdown was 59 flights for Premier League fixtures; 16 for FA Cup games and six for EFL Cup matchesThe shortest flight was just 27 minutes; the longest 77 minutesThe average duration of these 81 flights was 42 minutes." textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraLight" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="150.0" fitWidth="30.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#go_to_back" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/go-back-30.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="id_page24" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="900.0" prefWidth="1400.0" visible="false">
+         <children>
+            <AnchorPane layoutX="300.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="282.0" prefWidth="900.0">
+               <children>
+                  <Label prefHeight="80.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="UN warns against 'vampiric' global water use" textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraBold" size="30.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="300.0" fitWidth="774.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@content_news/24.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutY="401.0" prefHeight="369.0" prefWidth="900.0" style="-fx-text-fill: #564557;" text="A United Nations report has warned of a looming global water crisis and an &quot;imminent risk&quot; of shortages due to overconsumption and climate change.The world is &quot;blindly travelling a dangerous path&quot; of &quot;vampiric overconsumption and overdevelopment&quot;, the report says.Its publication comes before the first major UN water summit since 1977.Thousands of delegates will attend the three-day gathering in New York which begins on Wednesday.UN Secretary General Antonio Guterres says water, &quot;humanity's lifeblood&quot;, is being drained by &quot;unsustainable water use, pollution and unchecked global warming&quot;.The report, published by UN Water and Unesco, warns that &quot;scarcity is becoming endemic&quot; because of overconsumption and pollution, while global warming will increase seasonal water shortages in both areas with abundant water and those already strained.Richard Connor, the lead author of the report, said that about 10% of the global population &quot;currently lives in areas that are high or critical water stress&quot;.&quot;In our report, we say that up to 3.5 billion people live under conditions of water stress at least one month a year,&quot; he told the BBC.According to the most recent UN climate report, published Monday by the IPCC expert panel, &quot;roughly half of the world's population currently experience severe water scarcity for at least part of the year&quot;.Mr Connor told reporters that &quot;uncertainties are increasing&quot; when it comes to global water supply.&quot;If we don't address it, there definitely will be a global crisis,&quot; he said.UNDP Associate Administrator Usha Rao Monari told the BBC that resources would need to be managed more carefully in the future.&quot;There is enough water on the planet if we manage it more effectively than we have managed it over the last few decades,&quot; she said.&quot;I think we will have to find new governance models, new finance models, new models of using water and reusing water than ever before. I think that technology and innovation will play a very large role in looking at how to manage the water sector and the use of water.&quot;The summit, co-hosted by the governments of Tajikistan and the Netherlands, will gather some 6,500 participants, including 100 ministers and a dozen heads of state and government." textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Montserrat ExtraLight" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="150.0" fitWidth="30.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#go_to_back" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/go-back-30.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

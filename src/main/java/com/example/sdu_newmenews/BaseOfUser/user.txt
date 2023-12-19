@@ -1,0 +1,12 @@
+Remember me :true
+Username    :Meyirman
+Password    :meyirPass
+Email       :meyir@com
+Gender      :Male
+~~~~~
+Remember me :false
+Username    :Duman
+Password    :12345678
+Email       :duka@com
+Gender      :Male
+~~~~~
